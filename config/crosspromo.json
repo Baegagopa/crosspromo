@@ -226,24 +226,27 @@
                      "app_type":  "utility",
                      "app_kind":  "image",
                      "segments":  [
-                                      "health",
-                                      "habit"
+                                      "utilities",
+                                      "image",
+                                      "privacy"
                                   ],
                      "tags":  [
-                                  "health",
-                                  "habit",
-                                  "daily"
+                                  "image-compression",
+                                  "exif",
+                                  "privacy",
+                                  "photo",
+                                  "resize"
                               ],
-                     "priority":  60,
+                     "priority":  70,
                      "is_featured":  false,
-                     "name":  "image Compressor Exif",
-                     "tagline":  "이미지 압축",
-                     "icon_url":  "https://baegagopa.github.io/crosspromo/assets/sample-health-icon.png",
-                     "banner_url":  "https://baegagopa.github.io/crosspromo/assets/sample-health-banner.png",
+                     "name":  "Image Compressor EXIF",
+                     "tagline":  "이미지 용량을 줄이고 EXIF 정보를 로컬에서 제거",
+                     "icon_url":  "https://baegagopa.github.io/crosspromo/assets/image-compressor-exif-icon.png",
+                     "banner_url":  "https://baegagopa.github.io/crosspromo/assets/image-compressor-exif-banner.png",
                      "platforms":  {
                                        "android":  {
                                                        "applicationId":  "com.bcs.image_compressor_exif",
-                                                       "storeUrl":  "https://play.google.com/store/apps/details?id=com.bcs.dailyhealth"
+                                                       "storeUrl":  "https://play.google.com/store/apps/details?id=com.bcs.image_compressor_exif"
                                                    },
                                        "ios":  {
                                                    "bundleId":  "",
@@ -252,23 +255,22 @@
                                    },
                      "exclude_current_game":  true,
                      "target_platforms":  [
-                                              "android",
-                                              "ios"
+                                              "android"
                                           ],
                      "localized_content":  {
                                                "_items":  [
                                                               {
                                                                   "key":  "en",
                                                                   "value":  {
-                                                                                "name":  "image Compressor Exif",
-                                                                                "tagline":  "image Compressor Exif"
+                                                                                "name":  "Image Compressor EXIF",
+                                                                                "tagline":  "Compress images and remove EXIF metadata on device."
                                                                             }
                                                               },
                                                               {
                                                                   "key":  "ko",
                                                                   "value":  {
-                                                                                "name":  "이미지 압축",
-                                                                                "tagline":  "이미지 압축 해요~!"
+                                                                                "name":  "이미지 압축 EXIF 제거기",
+                                                                                "tagline":  "이미지 용량을 줄이고 EXIF 정보를 로컬에서 제거합니다."
                                                                             }
                                                               }
                                                           ]
