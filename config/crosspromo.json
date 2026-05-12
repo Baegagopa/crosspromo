@@ -136,11 +136,16 @@
                                        "android":  {
                                                        "applicationId":  "com.bcs.budgettracker",
                                                        "storeUrl":  "https://play.google.com/store/apps/details?id=com.bcs.budgettracker"
-                                                   }
+                                                   },
+                                       "ios":  {
+                                                   "bundleId":  "",
+                                                   "storeUrl":  ""
+                                               }
                                    },
                      "exclude_current_game":  true,
                      "target_platforms":  [
-                                              "android"
+                                              "android",
+                                              "ios"
                                           ],
                      "localized_content":  {
                                                "_items":  [
@@ -193,7 +198,8 @@
                                    },
                      "exclude_current_game":  true,
                      "target_platforms":  [
-                                              "android"
+                                              "android",
+                                              "ios"
                                           ],
                      "localized_content":  {
                                                "_items":  [
@@ -209,6 +215,60 @@
                                                                   "value":  {
                                                                                 "name":  "BCS 데일리 헬스",
                                                                                 "tagline":  "매일 기록하는 건강 습관 체크"
+                                                                            }
+                                                              }
+                                                          ]
+                                           }
+                 },
+                 {
+                     "id":  "bcs-image-compressor-exif",
+                     "enabled":  true,
+                     "app_type":  "utility",
+                     "app_kind":  "image",
+                     "segments":  [
+                                      "health",
+                                      "habit"
+                                  ],
+                     "tags":  [
+                                  "health",
+                                  "habit",
+                                  "daily"
+                              ],
+                     "priority":  60,
+                     "is_featured":  false,
+                     "name":  "image Compressor Exif",
+                     "tagline":  "이미지 압축",
+                     "icon_url":  "https://baegagopa.github.io/crosspromo/assets/sample-health-icon.png",
+                     "banner_url":  "https://baegagopa.github.io/crosspromo/assets/sample-health-banner.png",
+                     "platforms":  {
+                                       "android":  {
+                                                       "applicationId":  "com.bcs.image_compressor_exif",
+                                                       "storeUrl":  "https://play.google.com/store/apps/details?id=com.bcs.dailyhealth"
+                                                   },
+                                       "ios":  {
+                                                   "bundleId":  "",
+                                                   "storeUrl":  ""
+                                               }
+                                   },
+                     "exclude_current_game":  true,
+                     "target_platforms":  [
+                                              "android",
+                                              "ios"
+                                          ],
+                     "localized_content":  {
+                                               "_items":  [
+                                                              {
+                                                                  "key":  "en",
+                                                                  "value":  {
+                                                                                "name":  "image Compressor Exif",
+                                                                                "tagline":  "image Compressor Exif"
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "key":  "ko",
+                                                                  "value":  {
+                                                                                "name":  "이미지 압축",
+                                                                                "tagline":  "이미지 압축 해요~!"
                                                                             }
                                                               }
                                                           ]
