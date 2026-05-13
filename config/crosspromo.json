@@ -1,5 +1,5 @@
 {
-    "version":  4,
+    "version":  5,
     "global_switch":  true,
     "cache_ttl_hours":  24,
     "url_bases":  {
@@ -276,7 +276,7 @@
                      "name":  "Date Calculator",
                      "tagline":  "Calendar-day math with age, UTC timestamp, and locale-aware date tools.",
                      "icon_path":  "date-calculator-icon.png",
-                     "banner_path":  "date-calculator-banner.png?v=2",
+                     "banner_path":  "date-calculator-banner.png?v=4",
                      "platforms":  {
                                        "android":  {
                                                        "applicationId":  "com.bcs.date_calculator"
