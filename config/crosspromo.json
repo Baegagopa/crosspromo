@@ -1,5 +1,5 @@
 {
-    "version":  1,
+    "version":  2,
     "global_switch":  true,
     "cache_ttl_hours":  24,
     "display_rules":  {
@@ -255,7 +255,8 @@
                                    },
                      "exclude_current_game":  true,
                      "target_platforms":  [
-                                              "android"
+                                              "android",
+                                              "ios"
                                           ],
                      "localized_content":  {
                                                "_items":  [
@@ -271,6 +272,63 @@
                                                                   "value":  {
                                                                                 "name":  "이미지 압축 EXIF 제거기",
                                                                                 "tagline":  "이미지 용량을 줄이고 EXIF 정보를 로컬에서 제거합니다."
+                                                                            }
+                                                              }
+                                                          ]
+                                           }
+                 },
+                 {
+                     "id":  "bcs-date-calculator",
+                     "enabled":  true,
+                     "app_type":  "utility",
+                     "app_kind":  "date",
+                     "segments":  [
+                                      "utilities",
+                                      "calendar",
+                                      "productivity"
+                                  ],
+                     "tags":  [
+                                  "bcs-date-calculator",
+                                  "calendar",
+                                  "date-math",
+                                  "age",
+                                  "utc"
+                              ],
+                     "priority":  65,
+                     "is_featured":  false,
+                     "name":  "Date Calculator",
+                     "tagline":  "Calendar-day math with age, UTC timestamp, and locale-aware date tools.",
+                     "icon_url":  "https://baegagopa.github.io/crosspromo/assets/date-calculator-icon.png",
+                     "banner_url":  "https://baegagopa.github.io/crosspromo/assets/date-calculator-banner.png",
+                     "platforms":  {
+                                       "android":  {
+                                                       "applicationId":  "com.bcs.date_calculator",
+                                                       "storeUrl":  "https://play.google.com/store/apps/details?id=com.bcs.date_calculator"
+                                                   },
+                                       "ios":  {
+                                                   "bundleId":  "",
+                                                   "storeUrl":  ""
+                                               }
+                                   },
+                     "exclude_current_game":  true,
+                     "target_platforms":  [
+                                              "android",
+                                              "ios"
+                                          ],
+                     "localized_content":  {
+                                               "_items":  [
+                                                              {
+                                                                  "key":  "en",
+                                                                  "value":  {
+                                                                                "name":  "Date Calculator",
+                                                                                "tagline":  "Calendar-day math with age, UTC timestamp, and locale-aware date tools."
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "key":  "ko",
+                                                                  "value":  {
+                                                                                "name":  "날짜 계산기",
+                                                                                "tagline":  "나이, UTC 타임스탬프, 로케일별 날짜 형식을 함께 다루는 날짜 계산기입니다."
                                                                             }
                                                               }
                                                           ]
