@@ -1,5 +1,5 @@
 {
-    "version":  5,
+    "version":  6,
     "global_switch":  true,
     "cache_ttl_hours":  24,
     "url_bases":  {
@@ -16,202 +16,8 @@
                       },
     "apps":  [
                  {
-                     "id":  "bcs-sample-utility",
-                     "enabled":  true,
-                     "app_type":  "utility",
-                     "tags":  [
-                                  "productivity",
-                                  "tasks",
-                                  "quick-actions"
-                              ],
-                     "priority":  100,
-                     "is_featured":  true,
-                     "name":  "BCS Sample Utility",
-                     "tagline":  "일상 작업을 빠르게 처리하는 생산성 도구",
-                     "icon_path":  "sample-utility-icon.png",
-                     "banner_path":  "sample-utility-banner.png",
-                     "platforms":  {
-                                       "android":  {
-                                                       "applicationId":  "com.bcs.sampleutility"
-                                                   },
-                                       "ios":  {
-                                                   "bundleId":  "",
-                                                   "appStoreId":  ""
-                                               }
-                                   },
-                     "exclude_current_game":  true,
-                     "target_platforms":  [
-                                              "android",
-                                              "ios"
-                                          ],
-                     "localized_content":  {
-                                               "_items":  [
-                                                              {
-                                                                  "key":  "en",
-                                                                  "value":  {
-                                                                                "name":  "BCS Sample Utility",
-                                                                                "tagline":  "A productivity utility for everyday tasks."
-                                                                            }
-                                                              },
-                                                              {
-                                                                  "key":  "ko",
-                                                                  "value":  {
-                                                                                "name":  "BCS 샘플 유틸리티",
-                                                                                "tagline":  "일상 작업을 빠르게 처리하는 생산성 도구"
-                                                                            }
-                                                              }
-                                                          ]
-                                           }
-                 },
-                 {
-                     "id":  "bcs-sample-game",
-                     "enabled":  true,
-                     "app_type":  "game",
-                     "tags":  [
-                                  "casual",
-                                  "arcade",
-                                  "fun"
-                              ],
-                     "priority":  100,
-                     "is_featured":  true,
-                     "name":  "BCS Sample Game",
-                     "tagline":  "아주아주 재밌어요!",
-                     "icon_path":  "sample-utility-icon.png",
-                     "banner_path":  "sample-utility-banner.png",
-                     "platforms":  {
-                                       "android":  {
-                                                       "applicationId":  "com.bcs.sampleutility"
-                                                   },
-                                       "ios":  {
-                                                   "bundleId":  "",
-                                                   "appStoreId":  ""
-                                               }
-                                   },
-                     "exclude_current_game":  true,
-                     "target_platforms":  [
-                                              "android",
-                                              "ios"
-                                          ],
-                     "localized_content":  {
-                                               "_items":  [
-                                                              {
-                                                                  "key":  "en",
-                                                                  "value":  {
-                                                                                "name":  "BCS Sample Game",
-                                                                                "tagline":  "Fun!"
-                                                                            }
-                                                              },
-                                                              {
-                                                                  "key":  "ko",
-                                                                  "value":  {
-                                                                                "name":  "BCS 샘플 게임",
-                                                                                "tagline":  "개꿀잼!"
-                                                                            }
-                                                              }
-                                                          ]
-                                           }
-                 },
-                 {
-                     "id":  "bcs-sample-finance",
-                     "enabled":  true,
-                     "app_type":  "utility",
-                     "tags":  [
-                                  "budget",
-                                  "expense-tracking",
-                                  "ledger",
-                                  "finance"
-                              ],
-                     "priority":  80,
-                     "is_featured":  false,
-                     "name":  "BCS Budget Tracker",
-                     "tagline":  "가계부와 예산 관리를 한 번에",
-                     "icon_path":  "sample-finance-icon.png",
-                     "banner_path":  "sample-finance-banner.png",
-                     "platforms":  {
-                                       "android":  {
-                                                       "applicationId":  "com.bcs.budgettracker"
-                                                   },
-                                       "ios":  {
-                                                   "bundleId":  "",
-                                                   "appStoreId":  ""
-                                               }
-                                   },
-                     "exclude_current_game":  true,
-                     "target_platforms":  [
-                                              "android",
-                                              "ios"
-                                          ],
-                     "localized_content":  {
-                                               "_items":  [
-                                                              {
-                                                                  "key":  "en",
-                                                                  "value":  {
-                                                                                "name":  "BCS Budget Tracker",
-                                                                                "tagline":  "Track spending and manage your monthly budget."
-                                                                            }
-                                                              },
-                                                              {
-                                                                  "key":  "ko",
-                                                                  "value":  {
-                                                                                "name":  "BCS 가계부",
-                                                                                "tagline":  "가계부와 예산 관리를 한 번에"
-                                                                            }
-                                                              }
-                                                          ]
-                                           }
-                 },
-                 {
-                     "id":  "bcs-sample-health",
-                     "enabled":  true,
-                     "app_type":  "utility",
-                     "tags":  [
-                                  "health",
-                                  "habit-tracking",
-                                  "daily-log",
-                                  "wellness"
-                              ],
-                     "priority":  60,
-                     "is_featured":  false,
-                     "name":  "BCS Daily Health",
-                     "tagline":  "매일 기록하는 건강 습관 체크",
-                     "icon_path":  "sample-health-icon.png",
-                     "banner_path":  "sample-health-banner.png",
-                     "platforms":  {
-                                       "android":  {
-                                                       "applicationId":  "com.bcs.dailyhealth"
-                                                   },
-                                       "ios":  {
-                                                   "bundleId":  "",
-                                                   "appStoreId":  ""
-                                               }
-                                   },
-                     "exclude_current_game":  true,
-                     "target_platforms":  [
-                                              "android",
-                                              "ios"
-                                          ],
-                     "localized_content":  {
-                                               "_items":  [
-                                                              {
-                                                                  "key":  "en",
-                                                                  "value":  {
-                                                                                "name":  "BCS Daily Health",
-                                                                                "tagline":  "Build better health habits every day."
-                                                                            }
-                                                              },
-                                                              {
-                                                                  "key":  "ko",
-                                                                  "value":  {
-                                                                                "name":  "BCS 데일리 헬스",
-                                                                                "tagline":  "매일 기록하는 건강 습관 체크"
-                                                                            }
-                                                              }
-                                                          ]
-                                           }
-                 },
-                 {
                      "id":  "bcs-image-compressor-exif",
-                     "enabled":  true,
+                     "enabled":  false,
                      "app_type":  "utility",
                      "tags":  [
                                   "image",
@@ -262,7 +68,7 @@
                  },
                  {
                      "id":  "bcs-date-calculator",
-                     "enabled":  true,
+                     "enabled":  false,
                      "app_type":  "utility",
                      "tags":  [
                                   "calendar",
@@ -288,8 +94,7 @@
                                    },
                      "exclude_current_game":  true,
                      "target_platforms":  [
-                                              "android",
-                                              "ios"
+                                              "android"
                                           ],
                      "localized_content":  {
                                                "_items":  [
@@ -305,6 +110,56 @@
                                                                   "value":  {
                                                                                 "name":  "날짜 계산기",
                                                                                 "tagline":  "나이, UTC 타임스탬프, 로케일별 날짜 형식을 함께 다루는 날짜 계산기입니다."
+                                                                            }
+                                                              }
+                                                          ]
+                                           }
+                 },
+                 {
+                     "id":  "bcs-photo-submission-utility",
+                     "enabled":  false,
+                     "app_type":  "utility",
+                     "tags":  [
+                                  "document",
+                                  "photo",
+                                  "pdf",
+                                  "local-first",
+                                  "export"
+                              ],
+                     "priority":  60,
+                     "is_featured":  false,
+                     "name":  "Photo Submission Utility",
+                     "tagline":  "Prepare photos and PDF pages for submission on device.",
+                     "icon_path":  "bcs-photo-submission-utility-icon.png",
+                     "banner_path":  "bcs-photo-submission-utility-banner.png",
+                     "platforms":  {
+                                       "android":  {
+                                                       "applicationId":  "com.bcscraft.photosubmissionutility"
+                                                   },
+                                       "ios":  {
+                                                   "bundleId":  "",
+                                                   "appStoreId":  ""
+                                               }
+                                   },
+                     "exclude_current_game":  true,
+                     "target_platforms":  [
+                                              "android",
+                                              "ios"
+                                          ],
+                     "localized_content":  {
+                                               "_items":  [
+                                                              {
+                                                                  "key":  "en",
+                                                                  "value":  {
+                                                                                "name":  "Photo Submission Utility",
+                                                                                "tagline":  "Prepare photos and PDF pages for submission on device."
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "key":  "ko",
+                                                                  "value":  {
+                                                                                "name":  "문서/사진 제출 유틸",
+                                                                                "tagline":  "사진과 PDF 페이지를 기기에서 제출용 파일로 정리합니다."
                                                                             }
                                                               }
                                                           ]
