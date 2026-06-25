@@ -1,5 +1,5 @@
 {
-    "version":  6,
+    "version":  7,
     "global_switch":  true,
     "cache_ttl_hours":  24,
     "url_bases":  {
@@ -85,7 +85,7 @@
                      "banner_path":  "date-calculator-banner.png?v=4",
                      "platforms":  {
                                        "android":  {
-                                                       "applicationId":  "com.bcs.date_calculator"
+                                                       "applicationId":  "com.bcscraft.datecalculator"
                                                    },
                                        "ios":  {
                                                    "bundleId":  "",
