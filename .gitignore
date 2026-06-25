@@ -11,6 +11,9 @@ incoming/
 tooling/
 local/
 
+# Local agent instructions
+AGENTS.md
+
 # Local config scratch copy
 crosspromo.json
 
