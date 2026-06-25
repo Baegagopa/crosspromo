@@ -7,7 +7,16 @@ config/
 assets/
 .nojekyll
 README.md
+
+# Git-only repository guard files
+.github/
+.githooks/
+
 !CrossPromoTools/Docs/README.md
+!CrossPromoTools/Docs/project-llm-crosspromo-guide.md
+
+# Local config scratch copy
+crosspromo.json
 
 # OS / editor noise
 Thumbs.db
@@ -46,3 +55,4 @@ StartOpenCode.bat
 # Private runtime temp and test artifacts
 CrossPromoTools/Temp/*.json
 CrossPromoTools/Temp/TestRepo*/
+CrossPromoTools/Temp/DropAssets/

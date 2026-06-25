@@ -1,10 +1,18 @@
 # Private tooling stays local or in P4 only; never publish it to GitHub
 CrossPromoTools/
 
+# P4-only LLM handoff docs
+CrossPromoTools/Docs/project-llm-crosspromo-guide.md
+
 # Legacy local staging or private folders
 incoming/
+
+# Private local folders
 tooling/
 local/
+
+# Local config scratch copy
+crosspromo.json
 
 # Local automation scripts in repo root should stay out of Git
 StartOpenCode.bat
@@ -25,3 +33,4 @@ StartOpenCode.bat
 *.cache
 Thumbs.db
 Desktop.ini
+CrossPromoTools/Temp/DropAssets/
