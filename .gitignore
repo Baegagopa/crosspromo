@@ -17,6 +17,9 @@ AGENTS.md
 # Local config scratch copy
 crosspromo.json
 
+# Local Perforce workspace config
+p4config.txt
+
 # Local automation scripts in repo root should stay out of Git
 StartOpenCode.bat
 *.bat

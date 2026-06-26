@@ -3,8 +3,6 @@
 .gitignore
 
 # Public publish-only files are handled by Git
-config/
-assets/
 .nojekyll
 README.md
 
