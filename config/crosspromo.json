@@ -94,7 +94,8 @@
                                    },
                      "exclude_current_game":  true,
                      "target_platforms":  [
-                                              "android"
+                                              "android",
+                                              "ios"
                                           ],
                      "localized_content":  {
                                                "_items":  [
@@ -193,7 +194,8 @@
                                    },
                      "exclude_current_game":  true,
                      "target_platforms":  [
-                                              "android"
+                                              "android",
+                                              "ios"
                                           ],
                      "localized_content":  {
                                                "_items":  [
@@ -209,6 +211,56 @@
                                                                   "value":  {
                                                                                 "name":  "BloomRows",
                                                                                 "tagline":  "행과 열을 돌려 물길을 잇고 꽃을 피우는 정원 퍼즐입니다."
+                                                                            }
+                                                              }
+                                                          ]
+                                           }
+                 },
+                 {
+                     "id":  "hamyarn-paws",
+                     "enabled":  false,
+                     "app_type":  "game",
+                     "tags":  [
+                                  "casual",
+                                  "puzzle",
+                                  "merge",
+                                  "hamster",
+                                  "aiming"
+                              ],
+                     "priority":  60,
+                     "is_featured":  false,
+                     "name":  "Hamyarn Paws",
+                     "tagline":  "Aim, launch, and merge cozy yarn pieces with hamster helpers.",
+                     "icon_path":  "hamyarn-paws-icon.png",
+                     "banner_path":  "hamyarn-paws-banner.png",
+                     "platforms":  {
+                                       "android":  {
+                                                       "applicationId":  "com.bcscraft.hamyarnpaws"
+                                                   },
+                                       "ios":  {
+                                                   "bundleId":  "",
+                                                   "appStoreId":  ""
+                                               }
+                                   },
+                     "exclude_current_game":  true,
+                     "target_platforms":  [
+                                              "android",
+                                              "ios"
+                                          ],
+                     "localized_content":  {
+                                               "_items":  [
+                                                              {
+                                                                  "key":  "en",
+                                                                  "value":  {
+                                                                                "name":  "Hamyarn Paws",
+                                                                                "tagline":  "Aim, launch, and merge cozy yarn pieces with hamster helpers."
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "key":  "ko",
+                                                                  "value":  {
+                                                                                "name":  "Hamyarn Paws",
+                                                                                "tagline":  "햄스터와 함께 포근한 실뭉치를 쏘고 합치는 캐주얼 퍼즐."
                                                                             }
                                                               }
                                                           ]
