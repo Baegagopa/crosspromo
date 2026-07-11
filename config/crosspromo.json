@@ -1,5 +1,5 @@
 {
-    "version":  7,
+    "version":  8,
     "global_switch":  true,
     "cache_ttl_hours":  24,
     "url_bases":  {
@@ -35,7 +35,7 @@
                      "banner_path":  "image-compressor-exif-banner.png",
                      "platforms":  {
                                        "android":  {
-                                                       "applicationId":  "com.bcs.image_compressor_exif"
+                                                       "applicationId":  "com.bcscraft.imagecompressorexif"
                                                    },
                                        "ios":  {
                                                    "bundleId":  "",
