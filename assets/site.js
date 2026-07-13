@@ -16,25 +16,24 @@ const COPY = {
     "hero.titleAccent": "플레이는 오래 남게.",
     "hero.lead": "BCS Craft는 일상의 작은 불편을 덜어 주는 도구와, 자꾸 한 번 더 생각나는 게임을 만듭니다.",
     "hero.primaryAction": "작품 둘러보기",
-    "hero.secondaryAction": "공개 피드 보기",
-    "spotlight.label": "CROSSPROMO PICK",
+    "spotlight.label": "FEATURED PROJECT",
     "spotlight.accessibleTitle": "현재 추천 작품",
     "spotlight.featuredLabel": "FEATURED WORK",
     "spotlight.featuredTitle": "대표 작품",
     "spotlight.collectionLabel": "FROM THE COLLECTION",
     "spotlight.collectionTitle": "프로젝트 미리보기",
-    "stats.projects": "공개 프로젝트",
-    "stats.categories": "카테고리",
-    "stats.active": "CrossPromo 활성",
-    "stats.feed": "PUBLIC FEED",
+    "stats.projects": "전체 프로젝트",
+    "stats.games": "게임",
+    "stats.utilities": "유틸리티",
+    "stats.upcoming": "출시 예정",
     "work.eyebrow": "SELECTED WORK",
-    "work.title": "작은 아이디어를\n완성도 있게.",
-    "work.description": "유틸리티부터 퍼즐 게임까지. 공개 CrossPromo 피드와 연결된 프로젝트를 한곳에서 소개합니다.",
+    "work.title": "작은 아이디어를 완성도 있게.",
+    "work.description": "일상의 작은 불편을 덜어 주는 유틸리티부터 자꾸 한 번 더 생각나는 퍼즐 게임까지 소개합니다.",
     "filters.all": "전체",
     "filters.games": "게임",
     "filters.utilities": "유틸리티",
     "principles.eyebrow": "HOW WE BUILD",
-    "principles.title": "한 가지 경험을\n끝까지 다듬습니다.",
+    "principles.title": "한 가지 경험을 끝까지 다듬습니다.",
     "principles.focus.title": "명확한 한 가지",
     "principles.focus.body": "처음 열었을 때 무엇을 할 수 있는지 바로 이해되는 제품을 지향합니다.",
     "principles.care.title": "기기와 사용자를 존중",
@@ -42,11 +41,11 @@ const COPY = {
     "principles.iterate.title": "작게 내고 꾸준히 개선",
     "principles.iterate.body": "실제 사용 흐름을 살피며 더 단순하고 기분 좋은 경험으로 다듬습니다.",
     "closing.eyebrow": "FROM SMALL IDEAS",
-    "closing.title": "다음 즐거움과\n다음 쓸모를 만듭니다.",
+    "closing.title": "다음 즐거움과 다음 쓸모를 만듭니다.",
     "closing.action": "프로젝트 다시 보기 ↑",
     "footer.tagline": "Useful tools. Memorable play.",
-    "footer.feed": "Public CrossPromo Feed",
-    "card.active": "CrossPromo 활성",
+    "card.active": "추천 작품",
+    "card.upcoming": "출시 예정",
     "card.game": "Game",
     "card.utility": "Utility",
     "card.android": "Android",
@@ -77,25 +76,24 @@ const COPY = {
     "hero.titleAccent": "memorable in play.",
     "hero.lead": "BCS Craft makes focused tools for everyday friction and games that invite just one more turn.",
     "hero.primaryAction": "Explore our work",
-    "hero.secondaryAction": "View public feed",
-    "spotlight.label": "CROSSPROMO PICK",
+    "spotlight.label": "FEATURED PROJECT",
     "spotlight.accessibleTitle": "Currently recommended project",
     "spotlight.featuredLabel": "FEATURED WORK",
     "spotlight.featuredTitle": "Featured project",
     "spotlight.collectionLabel": "FROM THE COLLECTION",
     "spotlight.collectionTitle": "Project preview",
-    "stats.projects": "Public projects",
-    "stats.categories": "Categories",
-    "stats.active": "CrossPromo active",
-    "stats.feed": "PUBLIC FEED",
+    "stats.projects": "All projects",
+    "stats.games": "Games",
+    "stats.utilities": "Utilities",
+    "stats.upcoming": "Coming soon",
     "work.eyebrow": "SELECTED WORK",
-    "work.title": "Small ideas,\nfully considered.",
-    "work.description": "From focused utilities to cozy puzzle games, explore every project connected to our public CrossPromo feed.",
+    "work.title": "Small ideas, fully considered.",
+    "work.description": "Explore focused utilities for everyday friction and cozy puzzle games that invite one more turn.",
     "filters.all": "All",
     "filters.games": "Games",
     "filters.utilities": "Utilities",
     "principles.eyebrow": "HOW WE BUILD",
-    "principles.title": "One clear experience,\nrefined end to end.",
+    "principles.title": "One clear experience, refined end to end.",
     "principles.focus.title": "One clear purpose",
     "principles.focus.body": "We aim for products that make their value obvious from the moment they open.",
     "principles.care.title": "Respect the device and user",
@@ -103,11 +101,11 @@ const COPY = {
     "principles.iterate.title": "Ship small, improve often",
     "principles.iterate.body": "We observe real use and keep refining toward a simpler, more satisfying experience.",
     "closing.eyebrow": "FROM SMALL IDEAS",
-    "closing.title": "Building the next useful thing\nand the next bit of joy.",
+    "closing.title": "Building the next useful thing and the next bit of joy.",
     "closing.action": "Back to projects ↑",
     "footer.tagline": "Useful tools. Memorable play.",
-    "footer.feed": "Public CrossPromo Feed",
-    "card.active": "CrossPromo active",
+    "card.active": "Recommended",
+    "card.upcoming": "Coming soon",
     "card.game": "Game",
     "card.utility": "Utility",
     "card.android": "Android",
@@ -133,13 +131,13 @@ const state = {
 
 const elements = {
   appGrid: document.querySelector("#app-grid"),
-  categoryCount: document.querySelector("#category-count"),
-  feedVersion: document.querySelector("#feed-version"),
+  gameCount: document.querySelector("#game-count"),
   pageStatus: document.querySelector("#page-status"),
   projectCount: document.querySelector("#project-count"),
-  recommendedCount: document.querySelector("#recommended-count"),
   resultCount: document.querySelector("#result-count"),
-  spotlight: document.querySelector("#spotlight")
+  spotlight: document.querySelector("#spotlight"),
+  upcomingCount: document.querySelector("#upcoming-count"),
+  utilityCount: document.querySelector("#utility-count")
 };
 
 function getInitialLanguage() {
@@ -285,10 +283,6 @@ function createImage(src, alt, options) {
 }
 
 function storeDestinations(app) {
-  if (!isCrossPromoActive(app)) {
-    return [];
-  }
-
   const destinations = [];
   const android = app.platforms && app.platforms.android;
   const ios = app.platforms && app.platforms.ios;
@@ -361,6 +355,27 @@ function createStoreLinks(app, localizedName) {
   return list;
 }
 
+function createStatusBadge(app) {
+  let key = null;
+  let modifier = "";
+
+  if (app.enabled === false) {
+    key = "card.upcoming";
+    modifier = " status-badge--upcoming";
+  } else if (isCrossPromoActive(app)) {
+    key = "card.active";
+  }
+
+  if (!key) {
+    return null;
+  }
+
+  const badge = document.createElement("span");
+  badge.className = "status-badge" + modifier;
+  badge.textContent = copy(key);
+  return badge;
+}
+
 function renderSpotlight() {
   const orderedApps = sortedApps();
   const activeApp = orderedApps.find(isCrossPromoActive);
@@ -417,11 +432,9 @@ function renderSpotlight() {
   title.textContent = localized.name;
   metaTop.append(title);
 
-  if (isCrossPromoActive(spotlightApp)) {
-    const badge = document.createElement("span");
-    badge.className = "status-badge";
-    badge.textContent = copy("card.active");
-    metaTop.append(badge);
+  const spotlightBadge = createStatusBadge(spotlightApp);
+  if (spotlightBadge) {
+    metaTop.append(spotlightBadge);
   }
 
   const tagline = document.createElement("p");
@@ -435,10 +448,9 @@ function renderSpotlight() {
   elements.spotlight.append(media, body);
 }
 
-function renderCard(app, index, primaryActiveId) {
+function renderCard(app, index) {
   const localized = localizedApp(app);
-  const active = isCrossPromoActive(app);
-  const prominent = app.id === primaryActiveId || Boolean(app.is_featured);
+  const prominent = Boolean(app.is_featured);
   const storeLinks = createStoreLinks(app, localized.name);
   const article = document.createElement("article");
   article.className = "product-card"
@@ -474,11 +486,9 @@ function renderCard(app, index, primaryActiveId) {
   titleGroup.append(type, title);
   heading.append(icon, titleGroup);
 
-  if (active) {
-    const badge = document.createElement("span");
-    badge.className = "status-badge";
-    badge.textContent = copy("card.active");
-    heading.append(badge);
+  const statusBadge = createStatusBadge(app);
+  if (statusBadge) {
+    heading.append(statusBadge);
   }
 
   const tagline = document.createElement("p");
@@ -518,7 +528,6 @@ function renderCard(app, index, primaryActiveId) {
 
 function renderCards() {
   const orderedApps = sortedApps();
-  const primaryActiveApp = orderedApps.find(isCrossPromoActive);
   const apps = orderedApps.filter(function filterByType(app) {
     return state.filter === "all" || app.app_type === state.filter;
   });
@@ -526,25 +535,26 @@ function renderCards() {
   elements.appGrid.setAttribute("aria-busy", "false");
 
   apps.forEach(function appendCard(app, index) {
-    elements.appGrid.append(renderCard(app, index, primaryActiveApp && primaryActiveApp.id));
+    elements.appGrid.append(renderCard(app, index));
   });
 
   elements.resultCount.textContent = copy("results.count", { count: apps.length });
 }
 
 function renderStats() {
-  const categories = new Set(state.apps.map(function getType(app) {
-    return app.app_type;
-  }).filter(Boolean));
-  const activeApps = state.apps.filter(isCrossPromoActive);
+  const games = state.apps.filter(function isGame(app) {
+    return app.app_type === "game";
+  });
+  const utilities = state.apps.filter(function isUtility(app) {
+    return app.app_type === "utility";
+  });
+  const upcoming = state.apps.filter(function isUpcoming(app) {
+    return app.enabled === false;
+  });
   elements.projectCount.textContent = String(state.apps.length).padStart(2, "0");
-  elements.categoryCount.textContent = String(categories.size).padStart(2, "0");
-  elements.recommendedCount.textContent = String(activeApps.length).padStart(2, "0");
-  elements.feedVersion.textContent = "V" + state.config.version;
-  elements.feedVersion.setAttribute(
-    "aria-label",
-    copy("feed.ready", { version: state.config.version })
-  );
+  elements.gameCount.textContent = String(games.length).padStart(2, "0");
+  elements.utilityCount.textContent = String(utilities.length).padStart(2, "0");
+  elements.upcomingCount.textContent = String(upcoming.length).padStart(2, "0");
 }
 
 function renderData() {
