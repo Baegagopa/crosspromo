@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b211d">
+    <meta name="description" content="BCS Craft가 만드는 실용적인 앱과 오래 기억되는 게임을 만나보세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="BCS Craft">
+    <meta property="og:title" content="BCS Craft — Apps & Games">
+    <meta property="og:description" content="작은 불편을 덜어 주는 도구와 오래 머무는 플레이를 만듭니다.">
+    <meta property="og:url" content="https://baegagopa.github.io/crosspromo/">
+    <meta property="og:image" content="https://baegagopa.github.io/crosspromo/assets/bloomrows-banner.png">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://baegagopa.github.io/crosspromo/">
+    <link rel="preload" href="./config/crosspromo.json" as="fetch" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/site.css">
+    <title>BCS Craft — Apps & Games</title>
+    <script src="./assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content" data-copy="aria.skip">본문으로 바로가기</a>
+
+    <div class="ambient ambient--one" aria-hidden="true"></div>
+    <div class="ambient ambient--two" aria-hidden="true"></div>
+
+    <header class="site-header page-width">
+      <a class="brand" href="./" aria-label="BCS Craft 홈" data-aria-copy="aria.home">
+        <span class="brand__mark" aria-hidden="true">B</span>
+        <span class="brand__name">BCS CRAFT</span>
+      </a>
+
+      <nav class="site-nav" aria-label="주요 메뉴" data-aria-copy="aria.navigation">
+        <a href="#work" data-copy="nav.work">작품</a>
+        <a href="#principles" data-copy="nav.principles">만드는 방식</a>
+      </nav>
+
+      <div class="language-switch" role="group" aria-label="언어 선택" data-aria-copy="aria.language">
+        <button type="button" data-language="ko" aria-pressed="true">KO</button>
+        <button type="button" data-language="en" aria-pressed="false">EN</button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero page-width" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow">
+            <span class="eyebrow__dot" aria-hidden="true"></span>
+            <span data-copy="hero.eyebrow">INDEPENDENT APP &amp; GAME STUDIO</span>
+          </p>
+          <h1 id="hero-title">
+            <span data-copy="hero.titleLead">쓸모는 선명하게,</span>
+            <strong data-copy="hero.titleAccent">플레이는 오래 남게.</strong>
+          </h1>
+          <p class="hero__lead" data-copy="hero.lead">
+            BCS Craft는 일상의 작은 불편을 덜어 주는 도구와, 자꾸 한 번 더 생각나는 게임을 만듭니다.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#work">
+              <span data-copy="hero.primaryAction">작품 둘러보기</span>
+              <span aria-hidden="true">↘</span>
+            </a>
+            <a class="button button--ghost" href="./config/crosspromo.json">
+              <span data-copy="hero.secondaryAction">공개 피드 보기</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="spotlight-shell" aria-labelledby="spotlight-title">
+          <div class="spotlight-shell__topline">
+            <p data-copy="spotlight.label">CROSSPROMO PICK</p>
+            <span class="signal" aria-hidden="true"><i></i><i></i><i></i></span>
+          </div>
+          <div id="spotlight" class="spotlight" aria-busy="true">
+            <div class="spotlight__skeleton" aria-hidden="true">
+              <div class="skeleton-block skeleton-block--media"></div>
+              <div class="skeleton-row">
+                <div class="skeleton-block skeleton-block--icon"></div>
+                <div class="skeleton-lines">
+                  <div class="skeleton-block"></div>
+                  <div class="skeleton-block"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p id="spotlight-title" class="visually-hidden" data-copy="spotlight.accessibleTitle">현재 추천 작품</p>
+        </aside>
+      </section>
+
+      <section class="studio-stats page-width" aria-label="스튜디오 현황" data-aria-copy="aria.stats">
+        <dl>
+          <div>
+            <dt data-copy="stats.projects">공개 프로젝트</dt>
+            <dd id="project-count">—</dd>
+          </div>
+          <div>
+            <dt data-copy="stats.categories">카테고리</dt>
+            <dd id="category-count">—</dd>
+          </div>
+          <div>
+            <dt data-copy="stats.active">CrossPromo 활성</dt>
+            <dd id="recommended-count">—</dd>
+          </div>
+          <div class="studio-stats__feed">
+            <dt data-copy="stats.feed">PUBLIC FEED</dt>
+            <dd id="feed-version">SYNCING</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="work" class="catalog" aria-labelledby="work-title">
+        <div class="catalog__inner page-width">
+          <p class="catalog__watermark" aria-hidden="true">APPS / GAMES</p>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow eyebrow--dark" data-copy="work.eyebrow">SELECTED WORK</p>
+              <h2 id="work-title" data-copy="work.title">작은 아이디어를<br>완성도 있게.</h2>
+            </div>
+            <p data-copy="work.description">
+              유틸리티부터 퍼즐 게임까지. 공개 CrossPromo 피드와 연결된 프로젝트를 한곳에서 소개합니다.
+            </p>
+          </div>
+
+          <div class="catalog-toolbar">
+            <div class="filters" role="group" aria-label="작품 필터" data-aria-copy="aria.filters">
+              <button type="button" data-filter="all" aria-pressed="true" data-copy="filters.all">전체</button>
+              <button type="button" data-filter="game" aria-pressed="false" data-copy="filters.games">게임</button>
+              <button type="button" data-filter="utility" aria-pressed="false" data-copy="filters.utilities">유틸리티</button>
+            </div>
+            <p id="result-count" class="result-count"></p>
+          </div>
+
+          <div id="app-grid" class="app-grid" aria-busy="true">
+            <div class="loading-card" aria-hidden="true"></div>
+            <div class="loading-card" aria-hidden="true"></div>
+            <div class="loading-card" aria-hidden="true"></div>
+          </div>
+
+          <noscript>
+            <p class="feed-error">이 페이지에서 작품 목록을 보려면 JavaScript를 활성화해 주세요.</p>
+          </noscript>
+        </div>
+      </section>
+
+      <section id="principles" class="principles" aria-labelledby="principles-title">
+        <div class="page-width">
+          <div class="principles__intro">
+            <p class="eyebrow" data-copy="principles.eyebrow">HOW WE BUILD</p>
+            <h2 id="principles-title" data-copy="principles.title">한 가지 경험을<br>끝까지 다듬습니다.</h2>
+          </div>
+          <ol class="principle-list">
+            <li>
+              <span>01</span>
+              <div>
+                <h3 data-copy="principles.focus.title">명확한 한 가지</h3>
+                <p data-copy="principles.focus.body">처음 열었을 때 무엇을 할 수 있는지 바로 이해되는 제품을 지향합니다.</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <h3 data-copy="principles.care.title">기기와 사용자를 존중</h3>
+                <p data-copy="principles.care.body">불필요한 단계를 덜고, 가능한 작업은 사용자의 기기 안에서 자연스럽게 이어갑니다.</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <h3 data-copy="principles.iterate.title">작게 내고 꾸준히 개선</h3>
+                <p data-copy="principles.iterate.body">실제 사용 흐름을 살피며 더 단순하고 기분 좋은 경험으로 다듬습니다.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="closing__orb" aria-hidden="true"></div>
+        <div class="page-width closing__inner">
+          <p data-copy="closing.eyebrow">FROM SMALL IDEAS</p>
+          <h2 id="closing-title" data-copy="closing.title">다음 즐거움과<br>다음 쓸모를 만듭니다.</h2>
+          <a href="#work" data-copy="closing.action">프로젝트 다시 보기 ↑</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width site-footer__inner">
+        <div>
+          <p class="brand brand--footer">
+            <span class="brand__mark" aria-hidden="true">B</span>
+            <span class="brand__name">BCS CRAFT</span>
+          </p>
+          <p data-copy="footer.tagline">Useful tools. Memorable play.</p>
+        </div>
+        <div class="site-footer__meta">
+          <a href="https://github.com/Baegagopa" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="./config/crosspromo.json" data-copy="footer.feed">Public CrossPromo Feed</a>
+          <p>© <span id="current-year">2026</span> BCS Craft</p>
+        </div>
+      </div>
+    </footer>
+
+    <p id="page-status" class="visually-hidden" role="status" aria-live="polite"></p>
+  </body>
+</html>
