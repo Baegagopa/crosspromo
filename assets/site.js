@@ -289,17 +289,14 @@ function storeDestinations(app) {
     return [];
   }
 
-  const bases = (state.config && state.config.url_bases && state.config.url_bases.stores) || {};
   const destinations = [];
   const android = app.platforms && app.platforms.android;
   const ios = app.platforms && app.platforms.ios;
 
-  const androidUrl = android && (android.storeUrl || (bases.android && android.applicationId
-    ? bases.android + encodeURIComponent(android.applicationId)
-    : ""));
-  const iosUrl = ios && (ios.storeUrl || (bases.ios && ios.appStoreId
-    ? bases.ios + encodeURIComponent(ios.appStoreId)
-    : ""));
+  // A package ID identifies an intended listing but does not prove that the
+  // public store page exists. The portfolio links only explicit published URLs.
+  const androidUrl = android && android.storeUrl;
+  const iosUrl = ios && ios.storeUrl;
   const safeAndroidUrl = safeHttpsUrl(androidUrl);
   const safeIosUrl = safeHttpsUrl(iosUrl);
 
