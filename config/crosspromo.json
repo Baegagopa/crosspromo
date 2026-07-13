@@ -1,5 +1,5 @@
 {
-    "version":  8,
+    "version":  10,
     "global_switch":  true,
     "cache_ttl_hours":  24,
     "url_bases":  {
@@ -261,6 +261,57 @@
                                                                   "value":  {
                                                                                 "name":  "Hamyarn Paws",
                                                                                 "tagline":  "햄스터와 함께 포근한 실뭉치를 쏘고 합치는 캐주얼 퍼즐."
+                                                                            }
+                                                              }
+                                                          ]
+                                           }
+                 },
+                 {
+                     "id":  "bcs-board-game-score-sheet",
+                     "enabled":  false,
+                     "app_type":  "utility",
+                     "tags":  [
+                                  "board-game",
+                                  "scorekeeping",
+                                  "offline",
+                                  "game-night",
+                                  "qr",
+                                  "statistics"
+                              ],
+                     "priority":  55,
+                     "is_featured":  false,
+                     "name":  "Board Game Score Sheet",
+                     "tagline":  "Track players, rounds, and results for board games, card games, and game night.",
+                     "icon_path":  "board-game-score-sheet-icon.png",
+                     "banner_path":  "board-game-score-sheet-banner.png",
+                     "platforms":  {
+                                       "android":  {
+                                                       "applicationId":  "com.bcscraft.boardgamescoresheet"
+                                                   },
+                                       "ios":  {
+                                                   "bundleId":  "com.bcscraft.boardgamescoresheet",
+                                                   "appStoreId":  ""
+                                               }
+                                   },
+                     "exclude_current_game":  true,
+                     "target_platforms":  [
+                                              "android",
+                                              "ios"
+                                          ],
+                     "localized_content":  {
+                                               "_items":  [
+                                                              {
+                                                                  "key":  "en",
+                                                                  "value":  {
+                                                                                "name":  "Board Game Score Sheet",
+                                                                                "tagline":  "Track players, rounds, and results for board games, card games, and game night."
+                                                                            }
+                                                              },
+                                                              {
+                                                                  "key":  "ko",
+                                                                  "value":  {
+                                                                                "name":  "보드게임 점수표",
+                                                                                "tagline":  "플레이어별 라운드 점수와 결과를 오프라인에서 빠르게 기록합니다."
                                                                             }
                                                               }
                                                           ]
