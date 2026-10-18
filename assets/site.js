@@ -4,140 +4,88 @@ const COPY = {
     "aria.home": "BCS Craft 홈",
     "aria.navigation": "주요 메뉴",
     "aria.language": "언어 선택",
-    "aria.stats": "스튜디오 현황",
-    "aria.filters": "작품 필터",
     "aria.tags": "태그",
-    "aria.platforms": "지원 플랫폼",
     "aria.stores": "스토어 링크",
-    "nav.work": "작품",
-    "nav.principles": "만드는 방식",
-    "hero.eyebrow": "INDEPENDENT APP & GAME STUDIO",
-    "hero.titleLead": "쓸모는 선명하게,",
-    "hero.titleAccent": "플레이는 오래 남게.",
-    "hero.lead": "BCS Craft는 일상의 작은 불편을 덜어 주는 도구와, 자꾸 한 번 더 생각나는 게임을 만듭니다.",
-    "hero.primaryAction": "작품 둘러보기",
-    "spotlight.label": "FEATURED PROJECT",
-    "spotlight.accessibleTitle": "현재 추천 작품",
-    "spotlight.featuredLabel": "FEATURED WORK",
-    "spotlight.featuredTitle": "대표 작품",
-    "spotlight.collectionLabel": "FROM THE COLLECTION",
-    "spotlight.collectionTitle": "프로젝트 미리보기",
-    "stats.projects": "전체 프로젝트",
-    "stats.games": "게임",
-    "stats.utilities": "유틸리티",
-    "stats.upcoming": "출시 예정",
-    "work.eyebrow": "SELECTED WORK",
-    "work.title": "작은 아이디어를 완성도 있게.",
-    "work.description": "일상의 작은 불편을 덜어 주는 유틸리티부터 자꾸 한 번 더 생각나는 퍼즐 게임까지 소개합니다.",
-    "filters.all": "전체",
-    "filters.games": "게임",
-    "filters.utilities": "유틸리티",
-    "principles.eyebrow": "HOW WE BUILD",
-    "principles.title": "한 가지 경험을 끝까지 다듬습니다.",
-    "principles.focus.title": "명확한 한 가지",
-    "principles.focus.body": "처음 열었을 때 무엇을 할 수 있는지 바로 이해되는 제품을 지향합니다.",
-    "principles.care.title": "기기와 사용자를 존중",
-    "principles.care.body": "불필요한 단계를 덜고, 가능한 작업은 사용자의 기기 안에서 자연스럽게 이어갑니다.",
-    "principles.iterate.title": "작게 내고 꾸준히 개선",
-    "principles.iterate.body": "실제 사용 흐름을 살피며 더 단순하고 기분 좋은 경험으로 다듬습니다.",
-    "closing.eyebrow": "FROM SMALL IDEAS",
-    "closing.title": "다음 즐거움과 다음 쓸모를 만듭니다.",
-    "closing.action": "프로젝트 다시 보기 ↑",
-    "footer.tagline": "Useful tools. Memorable play.",
-    "card.active": "추천 작품",
-    "card.upcoming": "출시 예정",
-    "card.game": "Game",
-    "card.utility": "Utility",
-    "card.android": "Android",
-    "card.ios": "iOS",
-    "store.googlePlay": "Google Play ↗",
-    "store.appStore": "App Store ↗",
+    "nav.games": "게임",
+    "nav.about": "소개",
+    "hero.eyebrow": "작은 게임 스튜디오",
+    "hero.title": "작고 포근한 게임을 만듭니다.",
+    "hero.lead": "잠깐 쉬어 가는 시간을 기분 좋게 채워 주는 캐주얼 게임. 누구나 바로 시작하고, 끝나면 마음이 조금 말랑해지는 게임을 꿈꿉니다.",
+    "hero.action": "게임 보러 가기",
+    "games.eyebrow": "우리 게임",
+    "games.title": "정원에서 만나요",
+    "about.eyebrow": "이렇게 만들어요",
+    "about.title": "작은 즐거움을 정성껏",
+    "about.short.title": "짧게, 기분 좋게",
+    "about.short.body": "몇 분이면 한 판. 바쁜 하루 사이에 잠깐 들러 쉬어 갈 수 있게 만듭니다.",
+    "about.easy.title": "누구나 쉽게",
+    "about.easy.body": "긴 설명 없이도 손이 먼저 알아채는 규칙, 실패해도 다시 하고 싶어지는 흐름을 고민합니다.",
+    "about.care.title": "천천히 다듬기",
+    "about.care.body": "그림 한 장, 소리 하나까지 포근하게 어울리도록 오래 손봅니다.",
+    "footer.tagline": "작고 포근한 게임을 만듭니다.",
+    "footer.contact": "문의",
+    "footer.privacy": "Bloom Rows 개인정보처리방침",
+    "card.comingSoon": "출시 준비 중",
+    "card.privacy": "개인정보처리방침",
+    "store.googlePlay": "Google Play에서 보기",
+    "store.appStore": "App Store에서 보기",
     "store.open": "{name} — {store}에서 보기",
-    "results.count": "{count}개 프로젝트",
-    "feed.ready": "피드 버전 {version}",
-    "feed.error": "작품 목록을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.",
+    "feed.error": "게임 목록을 불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.",
     "feed.retry": "다시 시도",
-    "feed.loaded": "작품 {count}개를 불러왔습니다."
+    "feed.loaded": "게임 {count}개를 불러왔습니다."
   },
   en: {
     "aria.skip": "Skip to main content",
     "aria.home": "BCS Craft home",
     "aria.navigation": "Primary navigation",
     "aria.language": "Choose language",
-    "aria.stats": "Studio overview",
-    "aria.filters": "Filter projects",
     "aria.tags": "Tags",
-    "aria.platforms": "Supported platforms",
     "aria.stores": "Store links",
-    "nav.work": "Work",
-    "nav.principles": "How we build",
-    "hero.eyebrow": "INDEPENDENT APP & GAME STUDIO",
-    "hero.titleLead": "Clear in purpose,",
-    "hero.titleAccent": "memorable in play.",
-    "hero.lead": "BCS Craft makes focused tools for everyday friction and games that invite just one more turn.",
-    "hero.primaryAction": "Explore our work",
-    "spotlight.label": "FEATURED PROJECT",
-    "spotlight.accessibleTitle": "Currently recommended project",
-    "spotlight.featuredLabel": "FEATURED WORK",
-    "spotlight.featuredTitle": "Featured project",
-    "spotlight.collectionLabel": "FROM THE COLLECTION",
-    "spotlight.collectionTitle": "Project preview",
-    "stats.projects": "All projects",
-    "stats.games": "Games",
-    "stats.utilities": "Utilities",
-    "stats.upcoming": "Coming soon",
-    "work.eyebrow": "SELECTED WORK",
-    "work.title": "Small ideas, fully considered.",
-    "work.description": "Explore focused utilities for everyday friction and cozy puzzle games that invite one more turn.",
-    "filters.all": "All",
-    "filters.games": "Games",
-    "filters.utilities": "Utilities",
-    "principles.eyebrow": "HOW WE BUILD",
-    "principles.title": "One clear experience, refined end to end.",
-    "principles.focus.title": "One clear purpose",
-    "principles.focus.body": "We aim for products that make their value obvious from the moment they open.",
-    "principles.care.title": "Respect the device and user",
-    "principles.care.body": "We remove unnecessary steps and keep work flowing naturally on the user's device whenever possible.",
-    "principles.iterate.title": "Ship small, improve often",
-    "principles.iterate.body": "We observe real use and keep refining toward a simpler, more satisfying experience.",
-    "closing.eyebrow": "FROM SMALL IDEAS",
-    "closing.title": "Building the next useful thing and the next bit of joy.",
-    "closing.action": "Back to projects ↑",
-    "footer.tagline": "Useful tools. Memorable play.",
-    "card.active": "Recommended",
-    "card.upcoming": "Coming soon",
-    "card.game": "Game",
-    "card.utility": "Utility",
-    "card.android": "Android",
-    "card.ios": "iOS",
-    "store.googlePlay": "Google Play ↗",
-    "store.appStore": "App Store ↗",
+    "nav.games": "Games",
+    "nav.about": "About",
+    "hero.eyebrow": "A small game studio",
+    "hero.title": "We make small, cozy games.",
+    "hero.lead": "Casual games that fill a short break with something gentle. Easy to start, and a little heart-warming by the time you put them down.",
+    "hero.action": "See our games",
+    "games.eyebrow": "Our games",
+    "games.title": "Meet us in the garden",
+    "about.eyebrow": "How we make them",
+    "about.title": "Small joys, made with care",
+    "about.short.title": "Short and sweet",
+    "about.short.body": "A round takes a few minutes, so you can drop in for a breather on a busy day.",
+    "about.easy.title": "Easy for everyone",
+    "about.easy.body": "Rules your hands pick up before you read them, and a flow that makes you want one more try.",
+    "about.care.title": "Polished slowly",
+    "about.care.body": "Every picture and every sound gets reworked until it all feels warm together.",
+    "footer.tagline": "We make small, cozy games.",
+    "footer.contact": "Contact",
+    "footer.privacy": "Bloom Rows Privacy Policy",
+    "card.comingSoon": "Coming soon",
+    "card.privacy": "Privacy policy",
+    "store.googlePlay": "Get it on Google Play",
+    "store.appStore": "Download on the App Store",
     "store.open": "View {name} on {store}",
-    "results.count": "{count} projects",
-    "feed.ready": "Feed version {version}",
-    "feed.error": "We couldn't load the project list. Please try again in a moment.",
+    "feed.error": "We couldn't load the game list. Please try again in a moment.",
     "feed.retry": "Try again",
-    "feed.loaded": "Loaded {count} projects."
+    "feed.loaded": "Loaded {count} games."
   }
 };
 
+// Per-game links that live on this site rather than in the shared feed.
+const PRIVACY_PAGES = {
+  bloomrows: "./bloomrows/privacy.html"
+};
+
 const state = {
-  config: null,
   apps: [],
-  filter: "all",
-  language: getInitialLanguage(),
-  loadFailed: false
+  loaded: false,
+  loadFailed: false,
+  language: getInitialLanguage()
 };
 
 const elements = {
-  appGrid: document.querySelector("#app-grid"),
-  gameCount: document.querySelector("#game-count"),
-  pageStatus: document.querySelector("#page-status"),
-  projectCount: document.querySelector("#project-count"),
-  resultCount: document.querySelector("#result-count"),
-  spotlight: document.querySelector("#spotlight"),
-  upcomingCount: document.querySelector("#upcoming-count"),
-  utilityCount: document.querySelector("#utility-count")
+  gameList: document.querySelector("#game-list"),
+  pageStatus: document.querySelector("#page-status")
 };
 
 function getInitialLanguage() {
@@ -161,9 +109,8 @@ function getInitialLanguage() {
 function copy(key, replacements) {
   const dictionary = COPY[state.language] || COPY.en;
   let value = dictionary[key] || COPY.en[key] || key;
-  const values = replacements || {};
 
-  Object.entries(values).forEach(function replaceToken(entry) {
+  Object.entries(replacements || {}).forEach(function replaceToken(entry) {
     value = value.replace("{" + entry[0] + "}", String(entry[1]));
   });
 
@@ -173,144 +120,50 @@ function copy(key, replacements) {
 function applyLanguage() {
   document.documentElement.lang = state.language;
   document.title = state.language === "ko"
-    ? "BCS Craft — 앱과 게임"
-    : "BCS Craft — Apps & Games";
+    ? "BCS Craft — 포근한 게임"
+    : "BCS Craft — Cozy Games";
 
   document.querySelectorAll("[data-copy]").forEach(function translate(element) {
-    const lines = copy(element.dataset.copy).split("\n");
-    element.replaceChildren();
-
-    lines.forEach(function appendLine(line, index) {
-      if (index > 0) {
-        element.append(document.createElement("br"));
-      }
-      element.append(document.createTextNode(line));
-    });
-  });
-
-  document.querySelectorAll("[data-language]").forEach(function setPressed(button) {
-    button.setAttribute("aria-pressed", String(button.dataset.language === state.language));
+    element.textContent = copy(element.dataset.copy);
   });
 
   document.querySelectorAll("[data-aria-copy]").forEach(function translateLabel(element) {
     element.setAttribute("aria-label", copy(element.dataset.ariaCopy));
   });
 
-  if (state.config) {
-    renderData();
+  document.querySelectorAll("[data-language]").forEach(function setPressed(button) {
+    button.setAttribute("aria-pressed", String(button.dataset.language === state.language));
+  });
+
+  if (state.loaded) {
+    renderGames();
   } else if (state.loadFailed) {
     renderError();
   }
 }
 
 function localizedApp(app) {
-  const items = app && app.localized_content && app.localized_content._items;
-  const localizedItems = Array.isArray(items) ? items : [];
-  const preferred = localizedItems.find(function findPreferred(item) {
-    return item && item.key === state.language;
-  });
-  const english = localizedItems.find(function findEnglish(item) {
-    return item && item.key === "en";
-  });
-  const preferredValue = (preferred && preferred.value) || {};
-  const englishValue = (english && english.value) || {};
+  const items = app.localized_content && app.localized_content._items;
+  const list = Array.isArray(items) ? items : [];
+  const find = function findLanguage(language) {
+    const item = list.find(function match(entry) {
+      return entry && entry.key === language;
+    });
+    return (item && item.value) || {};
+  };
+  const preferred = find(state.language);
+  const english = find("en");
 
   return {
-    name: preferredValue.name || englishValue.name || app.name || app.id,
-    tagline: preferredValue.tagline || englishValue.tagline || app.tagline || ""
+    name: preferred.name || english.name || app.name || app.id,
+    tagline: preferred.tagline || english.tagline || app.tagline || ""
   };
 }
 
-function isCrossPromoActive(app) {
-  return Boolean(state.config && state.config.global_switch && app.enabled);
-}
-
+// Images always come from this site's own assets folder so a local preview
+// and the published page show the same files.
 function assetUrl(path) {
-  if (!path) {
-    return "";
-  }
-
-  try {
-    const configuredBase = state.config
-      && state.config.url_bases
-      && state.config.url_bases.assets;
-    const base = new URL(configuredBase || "./assets/", document.baseURI);
-    return new URL(path, base).href;
-  } catch {
-    return "./assets/" + String(path).replace(/^\/+/, "");
-  }
-}
-
-function sortedApps() {
-  return state.apps.slice().sort(function compare(first, second) {
-    const recommendationDifference = Number(isCrossPromoActive(second)) - Number(isCrossPromoActive(first));
-    if (recommendationDifference !== 0) {
-      return recommendationDifference;
-    }
-    const featuredDifference = Number(Boolean(second.is_featured)) - Number(Boolean(first.is_featured));
-    if (featuredDifference !== 0) {
-      return featuredDifference;
-    }
-    return (Number(second.priority) || 0) - (Number(first.priority) || 0);
-  });
-}
-
-function createImage(src, alt, options) {
-  const settings = options || {};
-  const image = document.createElement("img");
-  image.alt = alt;
-  image.width = settings.width || 512;
-  image.height = settings.height || 512;
-  image.decoding = "async";
-  image.loading = settings.eager ? "eager" : "lazy";
-
-  if (settings.eager) {
-    image.fetchPriority = "high";
-  }
-
-  if (src) {
-    image.src = src;
-  } else {
-    image.classList.add("is-missing");
-  }
-
-  image.addEventListener("error", function handleImageError() {
-    image.removeAttribute("src");
-    image.classList.add("is-missing");
-  });
-
-  return image;
-}
-
-function storeDestinations(app) {
-  const destinations = [];
-  const android = app.platforms && app.platforms.android;
-  const ios = app.platforms && app.platforms.ios;
-
-  // A package ID identifies an intended listing but does not prove that the
-  // public store page exists. The portfolio links only explicit published URLs.
-  const androidUrl = android && android.storeUrl;
-  const iosUrl = ios && ios.storeUrl;
-  const safeAndroidUrl = safeHttpsUrl(androidUrl);
-  const safeIosUrl = safeHttpsUrl(iosUrl);
-
-  if (safeAndroidUrl) {
-    destinations.push({
-      label: copy("store.googlePlay"),
-      name: "Google Play",
-      url: safeAndroidUrl
-    });
-  }
-
-  if (safeIosUrl) {
-    destinations.push({
-      label: copy("store.appStore"),
-      name: "App Store",
-      url: safeIosUrl
-    });
-  }
-
-  return destinations;
+  return path ? "./assets/" + String(path).replace(/^\/+/, "") : "";
 }
 
 function safeHttpsUrl(value) {
@@ -326,282 +179,155 @@ function safeHttpsUrl(value) {
   }
 }
 
-function createStoreLinks(app, localizedName) {
-  const destinations = storeDestinations(app);
-  if (destinations.length === 0) {
-    return null;
+function storeDestinations(app) {
+  // A package ID names an intended listing but does not prove the store page
+  // exists, so only explicit published URLs become links.
+  const android = app.platforms && app.platforms.android;
+  const ios = app.platforms && app.platforms.ios;
+  const destinations = [];
+  const androidUrl = safeHttpsUrl(android && android.storeUrl);
+  const iosUrl = safeHttpsUrl(ios && ios.storeUrl);
+
+  if (androidUrl) {
+    destinations.push({ label: copy("store.googlePlay"), name: "Google Play", url: androidUrl });
   }
-
-  const list = document.createElement("ul");
-  list.className = "store-links";
-  list.setAttribute("aria-label", copy("aria.stores"));
-
-  destinations.forEach(function appendStore(destination) {
-    const item = document.createElement("li");
-    const link = document.createElement("a");
-    link.className = "store-link";
-    link.href = destination.url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.textContent = destination.label;
-    link.setAttribute("aria-label", copy("store.open", {
-      name: localizedName,
-      store: destination.name
-    }));
-    item.append(link);
-    list.append(item);
-  });
-
-  return list;
+  if (iosUrl) {
+    destinations.push({ label: copy("store.appStore"), name: "App Store", url: iosUrl });
+  }
+  return destinations;
 }
 
-function createStatusBadge(app) {
-  let key = null;
-  let modifier = "";
-
-  if (app.enabled === false) {
-    key = "card.upcoming";
-    modifier = " status-badge--upcoming";
-  } else if (isCrossPromoActive(app)) {
-    key = "card.active";
+function createImage(src, className, width, height, eager) {
+  const image = document.createElement("img");
+  image.alt = "";
+  image.className = className;
+  image.width = width;
+  image.height = height;
+  image.decoding = "async";
+  image.loading = eager ? "eager" : "lazy";
+  if (src) {
+    image.src = src;
   }
-
-  if (!key) {
-    return null;
-  }
-
-  const badge = document.createElement("span");
-  badge.className = "status-badge" + modifier;
-  badge.textContent = copy(key);
-  return badge;
+  image.addEventListener("error", function hideBroken() {
+    image.classList.add("is-missing");
+  });
+  return image;
 }
 
-function renderSpotlight() {
-  const orderedApps = sortedApps();
-  const activeApp = orderedApps.find(isCrossPromoActive);
-  const featuredApp = orderedApps.find(function findFeatured(app) {
-    return Boolean(app.is_featured);
-  });
-  const spotlightApp = activeApp || featuredApp || orderedApps[0];
-  const label = document.querySelector(".spotlight-shell__topline [data-copy]");
-  const accessibleTitle = document.querySelector("#spotlight-title");
-  const labelKey = activeApp
-    ? "spotlight.label"
-    : (featuredApp ? "spotlight.featuredLabel" : "spotlight.collectionLabel");
-  const titleKey = activeApp
-    ? "spotlight.accessibleTitle"
-    : (featuredApp ? "spotlight.featuredTitle" : "spotlight.collectionTitle");
-  label.dataset.copy = labelKey;
-  label.textContent = copy(labelKey);
-  accessibleTitle.dataset.copy = titleKey;
-  accessibleTitle.textContent = copy(titleKey);
-  elements.spotlight.replaceChildren();
-  elements.spotlight.setAttribute("aria-busy", "false");
-
-  if (!spotlightApp) {
-    const empty = document.createElement("p");
-    empty.className = "feed-error";
-    empty.textContent = copy("feed.error");
-    elements.spotlight.append(empty);
-    return;
-  }
-
-  const localized = localizedApp(spotlightApp);
-  const media = document.createElement("div");
-  media.className = "spotlight__media";
-  media.append(createImage(assetUrl(spotlightApp.banner_path), "", {
-    eager: true,
-    width: 1200,
-    height: 480
-  }));
-
-  const body = document.createElement("div");
-  body.className = "spotlight__body";
-  const icon = createImage(assetUrl(spotlightApp.icon_path), "", {
-    eager: true,
-    width: 512,
-    height: 512
-  });
-  icon.classList.add("spotlight__icon");
-
-  const meta = document.createElement("div");
-  meta.className = "spotlight__meta";
-  const metaTop = document.createElement("div");
-  metaTop.className = "spotlight__meta-top";
-  const title = document.createElement("h3");
-  title.textContent = localized.name;
-  metaTop.append(title);
-
-  const spotlightBadge = createStatusBadge(spotlightApp);
-  if (spotlightBadge) {
-    metaTop.append(spotlightBadge);
-  }
-
-  const tagline = document.createElement("p");
-  tagline.textContent = localized.tagline;
-  meta.append(metaTop, tagline);
-  const storeLinks = createStoreLinks(spotlightApp, localized.name);
-  if (storeLinks) {
-    meta.append(storeLinks);
-  }
-  body.append(icon, meta);
-  elements.spotlight.append(media, body);
-}
-
-function renderCard(app, index) {
+function renderGameCard(app, index) {
   const localized = localizedApp(app);
-  const prominent = Boolean(app.is_featured);
-  const storeLinks = createStoreLinks(app, localized.name);
   const article = document.createElement("article");
-  article.className = "product-card"
-    + (prominent ? " product-card--recommended" : "")
-    + (storeLinks ? " product-card--linked" : "");
-  article.style.animationDelay = Math.min(index * 55, 220) + "ms";
+  article.className = "game-card" + (index % 2 === 1 ? " game-card--flip" : "");
+  article.style.animationDelay = Math.min(index * 90, 270) + "ms";
 
   const media = document.createElement("div");
-  media.className = "product-card__media";
-  media.append(createImage(assetUrl(app.banner_path), "", {
-    eager: prominent,
-    width: 1200,
-    height: 480
-  }));
+  media.className = "game-card__media";
+  media.append(createImage(assetUrl(app.banner_path), "game-card__banner", 1200, 480, index === 0));
 
   const body = document.createElement("div");
-  body.className = "product-card__body";
-  const heading = document.createElement("div");
-  heading.className = "product-card__heading";
-  const icon = createImage(assetUrl(app.icon_path), "", {
-    width: 512,
-    height: 512
-  });
-  icon.classList.add("product-card__icon");
+  body.className = "game-card__body";
 
-  const titleGroup = document.createElement("div");
-  titleGroup.className = "product-card__title-group";
-  const type = document.createElement("span");
-  type.className = "product-card__type";
-  type.textContent = copy(app.app_type === "game" ? "card.game" : "card.utility");
+  const heading = document.createElement("div");
+  heading.className = "game-card__heading";
+  heading.append(createImage(assetUrl(app.icon_path), "game-card__icon", 512, 512, index === 0));
   const title = document.createElement("h3");
   title.textContent = localized.name;
-  titleGroup.append(type, title);
-  heading.append(icon, titleGroup);
-
-  const statusBadge = createStatusBadge(app);
-  if (statusBadge) {
-    heading.append(statusBadge);
-  }
+  heading.append(title);
 
   const tagline = document.createElement("p");
-  tagline.className = "product-card__tagline";
+  tagline.className = "game-card__tagline";
   tagline.textContent = localized.tagline;
 
-  const footer = document.createElement("div");
-  footer.className = "product-card__footer";
   const tags = document.createElement("ul");
   tags.className = "tag-list";
   tags.setAttribute("aria-label", copy("aria.tags"));
   (Array.isArray(app.tags) ? app.tags.slice(0, 3) : []).forEach(function appendTag(tag) {
     const item = document.createElement("li");
-    item.textContent = tag;
+    item.textContent = "#" + tag;
     tags.append(item);
   });
 
-  const platforms = document.createElement("ul");
-  platforms.className = "platform-list";
-  platforms.setAttribute("aria-label", copy("aria.platforms"));
-  if (app.platforms && app.platforms.android && app.platforms.android.applicationId) {
-    const android = document.createElement("li");
-    android.textContent = copy("card.android");
-    platforms.append(android);
-  }
-  if (app.platforms && app.platforms.ios && app.platforms.ios.appStoreId) {
-    const ios = document.createElement("li");
-    ios.textContent = copy("card.ios");
-    platforms.append(ios);
+  const actions = document.createElement("div");
+  actions.className = "game-card__actions";
+  const destinations = storeDestinations(app);
+  if (destinations.length > 0) {
+    destinations.forEach(function appendStore(destination) {
+      const link = document.createElement("a");
+      link.className = "button button--small";
+      link.href = destination.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = destination.label;
+      link.setAttribute("aria-label", copy("store.open", { name: localized.name, store: destination.name }));
+      actions.append(link);
+    });
+  } else {
+    const badge = document.createElement("span");
+    badge.className = "status-pill";
+    badge.textContent = copy("card.comingSoon");
+    actions.append(badge);
   }
 
-  footer.append(tags, storeLinks || platforms);
-  body.append(heading, tagline, footer);
+  const privacyPage = PRIVACY_PAGES[app.id];
+  if (privacyPage) {
+    const privacy = document.createElement("a");
+    privacy.className = "text-link";
+    privacy.href = privacyPage;
+    privacy.textContent = copy("card.privacy");
+    actions.append(privacy);
+  }
+
+  body.append(heading, tagline, tags, actions);
   article.append(media, body);
   return article;
 }
 
-function renderCards() {
-  const orderedApps = sortedApps();
-  const apps = orderedApps.filter(function filterByType(app) {
-    return state.filter === "all" || app.app_type === state.filter;
-  });
-  elements.appGrid.replaceChildren();
-  elements.appGrid.setAttribute("aria-busy", "false");
-
-  apps.forEach(function appendCard(app, index) {
-    elements.appGrid.append(renderCard(app, index));
-  });
-
-  elements.resultCount.textContent = copy("results.count", { count: apps.length });
+function visibleGames() {
+  return state.apps
+    .filter(function isGame(app) {
+      return app && app.app_type === "game";
+    })
+    .sort(function compare(first, second) {
+      const enabledDifference = Number(Boolean(second.enabled)) - Number(Boolean(first.enabled));
+      if (enabledDifference !== 0) {
+        return enabledDifference;
+      }
+      return (Number(second.priority) || 0) - (Number(first.priority) || 0);
+    });
 }
 
-function renderStats() {
-  const games = state.apps.filter(function isGame(app) {
-    return app.app_type === "game";
+function renderGames() {
+  const games = visibleGames();
+  elements.gameList.replaceChildren();
+  elements.gameList.setAttribute("aria-busy", "false");
+  games.forEach(function appendGame(app, index) {
+    elements.gameList.append(renderGameCard(app, index));
   });
-  const utilities = state.apps.filter(function isUtility(app) {
-    return app.app_type === "utility";
-  });
-  const upcoming = state.apps.filter(function isUpcoming(app) {
-    return app.enabled === false;
-  });
-  elements.projectCount.textContent = String(state.apps.length).padStart(2, "0");
-  elements.gameCount.textContent = String(games.length).padStart(2, "0");
-  elements.utilityCount.textContent = String(utilities.length).padStart(2, "0");
-  elements.upcomingCount.textContent = String(upcoming.length).padStart(2, "0");
 }
 
-function renderData() {
-  renderSpotlight();
-  renderCards();
-  renderStats();
-}
-
-function createErrorPanel(withRetry) {
+function renderError() {
   const panel = document.createElement("div");
   panel.className = "feed-error";
   const message = document.createElement("p");
   message.textContent = copy("feed.error");
-  message.style.margin = "0";
-  panel.append(message);
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "button button--small";
+  button.textContent = copy("feed.retry");
+  button.addEventListener("click", loadFeed, { once: true });
+  panel.append(message, button);
 
-  if (withRetry) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "retry-button";
-    button.textContent = copy("feed.retry");
-    button.addEventListener("click", loadFeed, { once: true });
-    panel.append(button);
-  }
-
-  return panel;
-}
-
-function renderError() {
-  elements.appGrid.replaceChildren();
-  elements.appGrid.setAttribute("aria-busy", "false");
-  elements.spotlight.replaceChildren();
-  elements.spotlight.setAttribute("aria-busy", "false");
-  elements.appGrid.append(createErrorPanel(true));
-  elements.spotlight.append(createErrorPanel(false));
-  elements.resultCount.textContent = "";
+  elements.gameList.replaceChildren(panel);
+  elements.gameList.setAttribute("aria-busy", "false");
   elements.pageStatus.textContent = copy("feed.error");
 }
 
 async function loadFeed() {
   state.loadFailed = false;
-  elements.appGrid.setAttribute("aria-busy", "true");
-  elements.spotlight.setAttribute("aria-busy", "true");
+  elements.gameList.setAttribute("aria-busy", "true");
 
   try {
-    const feedUrl = new URL("./config/crosspromo.json", document.baseURI);
-    const response = await fetch(feedUrl, {
+    const response = await fetch(new URL("./config/crosspromo.json", document.baseURI), {
       headers: { Accept: "application/json" }
     });
     if (!response.ok) {
@@ -613,11 +339,10 @@ async function loadFeed() {
       throw new Error("CrossPromo feed is missing the apps array");
     }
 
-    state.config = config;
     state.apps = config.apps;
-    state.loadFailed = false;
-    renderData();
-    elements.pageStatus.textContent = copy("feed.loaded", { count: state.apps.length });
+    state.loaded = true;
+    renderGames();
+    elements.pageStatus.textContent = copy("feed.loaded", { count: visibleGames().length });
   } catch (error) {
     console.error(error);
     state.loadFailed = true;
@@ -634,19 +359,6 @@ document.querySelectorAll("[data-language]").forEach(function bindLanguage(butto
       // Language persistence is optional.
     }
     applyLanguage();
-  });
-});
-
-document.querySelectorAll("[data-filter]").forEach(function bindFilter(button) {
-  button.addEventListener("click", function changeFilter() {
-    state.filter = button.dataset.filter;
-    document.querySelectorAll("[data-filter]").forEach(function updateFilter(filterButton) {
-      filterButton.setAttribute("aria-pressed", String(filterButton === button));
-    });
-    if (state.config) {
-      renderCards();
-      elements.pageStatus.textContent = elements.resultCount.textContent;
-    }
   });
 });
 

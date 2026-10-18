@@ -3,41 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0b211d">
-    <meta name="description" content="BCS Craft가 만드는 실용적인 앱과 오래 기억되는 게임을 만나보세요.">
+    <meta name="theme-color" content="#fbf5ea">
+    <meta name="description" content="BCS Craft는 잠깐 쉬어 가는 시간을 포근하게 채워 주는 캐주얼 게임을 만듭니다.">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="BCS Craft">
-    <meta property="og:title" content="BCS Craft — Apps & Games">
-    <meta property="og:description" content="작은 불편을 덜어 주는 도구와 오래 머무는 플레이를 만듭니다.">
+    <meta property="og:title" content="BCS Craft — Cozy Games">
+    <meta property="og:description" content="잠깐 쉬어 가는 시간을 포근하게 채워 주는 작은 게임들.">
     <meta property="og:url" content="https://baegagopa.github.io/crosspromo/">
     <meta property="og:image" content="https://baegagopa.github.io/crosspromo/assets/bloomrows-banner.png">
     <meta property="og:locale" content="ko_KR">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://baegagopa.github.io/crosspromo/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&family=Nunito:wght@500;700;800&display=swap">
     <link rel="preload" href="./config/crosspromo.json" as="fetch" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/site.css">
-    <title>BCS Craft — Apps & Games</title>
+    <title>BCS Craft — Cozy Games</title>
     <script src="./assets/site.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content" data-copy="aria.skip">본문으로 바로가기</a>
 
-    <div class="ambient ambient--one" aria-hidden="true"></div>
-    <div class="ambient ambient--two" aria-hidden="true"></div>
-
     <header class="site-header page-width">
       <a class="brand" href="./" aria-label="BCS Craft 홈" data-aria-copy="aria.home">
-        <span class="brand__mark" aria-hidden="true">B</span>
-        <span class="brand__name">BCS CRAFT</span>
+        <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="11" r="7"/><circle cx="29" cy="18" r="7"/><circle cx="25.5" cy="28.5" r="7"/>
+          <circle cx="14.5" cy="28.5" r="7"/><circle cx="11" cy="18" r="7"/><circle class="brand__core" cx="20" cy="21" r="5.5"/>
+        </svg>
+        <span class="brand__name">BCS Craft</span>
       </a>
 
       <nav class="site-nav" aria-label="주요 메뉴" data-aria-copy="aria.navigation">
-        <a href="#work" data-copy="nav.work">작품</a>
-        <a href="#principles" data-copy="nav.principles">만드는 방식</a>
+        <a href="#games" data-copy="nav.games">게임</a>
+        <a href="#about" data-copy="nav.about">소개</a>
       </nav>
 
       <div class="language-switch" role="group" aria-label="언어 선택" data-aria-copy="aria.language">
-        <button type="button" data-language="ko" aria-pressed="true">KO</button>
+        <button type="button" data-language="ko" aria-pressed="true">한국어</button>
         <button type="button" data-language="en" aria-pressed="false">EN</button>
       </div>
     </header>
@@ -45,139 +48,65 @@
     <main id="main-content">
       <section class="hero page-width" aria-labelledby="hero-title">
         <div class="hero__copy">
-          <p class="eyebrow">
-            <span class="eyebrow__dot" aria-hidden="true"></span>
-            <span data-copy="hero.eyebrow">INDEPENDENT APP &amp; GAME STUDIO</span>
-          </p>
-          <h1 id="hero-title">
-            <span data-copy="hero.titleLead">쓸모는 선명하게,</span>
-            <strong data-copy="hero.titleAccent">플레이는 오래 남게.</strong>
-          </h1>
-          <p class="hero__lead" data-copy="hero.lead">
-            BCS Craft는 일상의 작은 불편을 덜어 주는 도구와, 자꾸 한 번 더 생각나는 게임을 만듭니다.
-          </p>
-          <div class="hero__actions">
-            <a class="button button--primary" href="#work">
-              <span data-copy="hero.primaryAction">작품 둘러보기</span>
-              <span aria-hidden="true">↘</span>
-            </a>
-          </div>
+          <p class="eyebrow" data-copy="hero.eyebrow">작은 게임 스튜디오</p>
+          <h1 id="hero-title" data-copy="hero.title">작고 포근한 게임을 만듭니다.</h1>
+          <p class="hero__lead" data-copy="hero.lead">잠깐 쉬어 가는 시간을 기분 좋게 채워 주는 캐주얼 게임. 누구나 바로 시작하고, 끝나면 마음이 조금 말랑해지는 게임을 꿈꿉니다.</p>
+          <a class="button" href="#games">
+            <span data-copy="hero.action">게임 보러 가기</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v11m0 0-4.5-4.5M10 15l4.5-4.5"/></svg>
+          </a>
         </div>
 
-        <aside class="spotlight-shell" aria-labelledby="spotlight-title">
-          <div class="spotlight-shell__topline">
-            <p data-copy="spotlight.label">FEATURED PROJECT</p>
-            <span class="signal" aria-hidden="true"><i></i><i></i><i></i></span>
+        <figure class="hero__art" aria-hidden="true">
+          <div class="hero__frame">
+            <img src="./assets/bloomrows-banner.png" alt="" width="1200" height="480" fetchpriority="high">
           </div>
-          <div id="spotlight" class="spotlight" aria-busy="true">
-            <div class="spotlight__skeleton" aria-hidden="true">
-              <div class="skeleton-block skeleton-block--media"></div>
-              <div class="skeleton-row">
-                <div class="skeleton-block skeleton-block--icon"></div>
-                <div class="skeleton-lines">
-                  <div class="skeleton-block"></div>
-                  <div class="skeleton-block"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p id="spotlight-title" class="visually-hidden" data-copy="spotlight.accessibleTitle">현재 추천 작품</p>
-        </aside>
+          <img class="hero__sticker" src="./assets/bloomrows-icon.png" alt="" width="512" height="512">
+          <span class="hero__leaf hero__leaf--one"></span>
+          <span class="hero__leaf hero__leaf--two"></span>
+        </figure>
       </section>
 
-      <section class="studio-stats page-width" aria-label="스튜디오 현황" data-aria-copy="aria.stats">
-        <dl>
-          <div>
-            <dt data-copy="stats.projects">전체 프로젝트</dt>
-            <dd id="project-count">—</dd>
-          </div>
-          <div>
-            <dt data-copy="stats.games">게임</dt>
-            <dd id="game-count">—</dd>
-          </div>
-          <div>
-            <dt data-copy="stats.utilities">유틸리티</dt>
-            <dd id="utility-count">—</dd>
-          </div>
-          <div>
-            <dt data-copy="stats.upcoming">출시 예정</dt>
-            <dd id="upcoming-count">—</dd>
-          </div>
-        </dl>
-      </section>
-
-      <section id="work" class="catalog" aria-labelledby="work-title">
-        <div class="catalog__inner page-width">
-          <p class="catalog__watermark" aria-hidden="true">APPS / GAMES</p>
+      <section id="games" class="games" aria-labelledby="games-title">
+        <div class="page-width">
           <div class="section-heading">
-            <div>
-              <p class="eyebrow eyebrow--dark" data-copy="work.eyebrow">SELECTED WORK</p>
-              <h2 id="work-title" data-copy="work.title">작은 아이디어를 완성도 있게.</h2>
-            </div>
-            <p data-copy="work.description">
-              일상의 작은 불편을 덜어 주는 유틸리티부터 자꾸 한 번 더 생각나는 퍼즐 게임까지 소개합니다.
-            </p>
+            <p class="eyebrow" data-copy="games.eyebrow">우리 게임</p>
+            <h2 id="games-title" data-copy="games.title">정원에서 만나요</h2>
           </div>
 
-          <div class="catalog-toolbar">
-            <div class="filters" role="group" aria-label="작품 필터" data-aria-copy="aria.filters">
-              <button type="button" data-filter="all" aria-pressed="true" data-copy="filters.all">전체</button>
-              <button type="button" data-filter="game" aria-pressed="false" data-copy="filters.games">게임</button>
-              <button type="button" data-filter="utility" aria-pressed="false" data-copy="filters.utilities">유틸리티</button>
-            </div>
-            <p id="result-count" class="result-count"></p>
-          </div>
-
-          <div id="app-grid" class="app-grid" aria-busy="true">
-            <div class="loading-card" aria-hidden="true"></div>
-            <div class="loading-card" aria-hidden="true"></div>
-            <div class="loading-card" aria-hidden="true"></div>
+          <div id="game-list" class="game-list" aria-busy="true">
+            <div class="game-card game-card--loading" aria-hidden="true"></div>
           </div>
 
           <noscript>
-            <p class="feed-error">이 페이지에서 작품 목록을 보려면 JavaScript를 활성화해 주세요.</p>
+            <p class="feed-error">게임 목록을 보려면 JavaScript를 켜 주세요.</p>
           </noscript>
         </div>
       </section>
 
-      <section id="principles" class="principles" aria-labelledby="principles-title">
+      <section id="about" class="about" aria-labelledby="about-title">
         <div class="page-width">
-          <div class="principles__intro">
-            <p class="eyebrow" data-copy="principles.eyebrow">HOW WE BUILD</p>
-            <h2 id="principles-title" data-copy="principles.title">한 가지 경험을 끝까지 다듬습니다.</h2>
+          <div class="section-heading">
+            <p class="eyebrow" data-copy="about.eyebrow">이렇게 만들어요</p>
+            <h2 id="about-title" data-copy="about.title">작은 즐거움을 정성껏</h2>
           </div>
-          <ol class="principle-list">
-            <li>
-              <span>01</span>
-              <div>
-                <h3 data-copy="principles.focus.title">명확한 한 가지</h3>
-                <p data-copy="principles.focus.body">처음 열었을 때 무엇을 할 수 있는지 바로 이해되는 제품을 지향합니다.</p>
-              </div>
+          <ul class="value-list">
+            <li class="value-card value-card--leaf">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 38c0-16 10-26 28-28 0 18-10 28-26 28"/><path d="M10 38 26 22"/></svg>
+              <h3 data-copy="about.short.title">짧게, 기분 좋게</h3>
+              <p data-copy="about.short.body">몇 분이면 한 판. 바쁜 하루 사이에 잠깐 들러 쉬어 갈 수 있게 만듭니다.</p>
             </li>
-            <li>
-              <span>02</span>
-              <div>
-                <h3 data-copy="principles.care.title">기기와 사용자를 존중</h3>
-                <p data-copy="principles.care.body">불필요한 단계를 덜고, 가능한 작업은 사용자의 기기 안에서 자연스럽게 이어갑니다.</p>
-              </div>
+            <li class="value-card value-card--heart">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 39S8 29.5 8 18.5A8.5 8.5 0 0 1 24 14a8.5 8.5 0 0 1 16 4.5C40 29.5 24 39 24 39Z"/></svg>
+              <h3 data-copy="about.easy.title">누구나 쉽게</h3>
+              <p data-copy="about.easy.body">긴 설명 없이도 손이 먼저 알아채는 규칙, 실패해도 다시 하고 싶어지는 흐름을 고민합니다.</p>
             </li>
-            <li>
-              <span>03</span>
-              <div>
-                <h3 data-copy="principles.iterate.title">작게 내고 꾸준히 개선</h3>
-                <p data-copy="principles.iterate.body">실제 사용 흐름을 살피며 더 단순하고 기분 좋은 경험으로 다듬습니다.</p>
-              </div>
+            <li class="value-card value-card--sprout">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 40V22"/><path d="M24 26c-9 0-14-5-14-13 9 0 14 5 14 13Z"/><path d="M24 22c0-7 4-11 12-11 0 7-4 11-12 11Z"/></svg>
+              <h3 data-copy="about.care.title">천천히 다듬기</h3>
+              <p data-copy="about.care.body">그림 한 장, 소리 하나까지 포근하게 어울리도록 오래 손봅니다.</p>
             </li>
-          </ol>
-        </div>
-      </section>
-
-      <section class="closing" aria-labelledby="closing-title">
-        <div class="closing__orb" aria-hidden="true"></div>
-        <div class="page-width closing__inner">
-          <p data-copy="closing.eyebrow">FROM SMALL IDEAS</p>
-          <h2 id="closing-title" data-copy="closing.title">다음 즐거움과 다음 쓸모를 만듭니다.</h2>
-          <a href="#work" data-copy="closing.action">프로젝트 다시 보기 ↑</a>
+          </ul>
         </div>
       </section>
     </main>
@@ -186,14 +115,19 @@
       <div class="page-width site-footer__inner">
         <div>
           <p class="brand brand--footer">
-            <span class="brand__mark" aria-hidden="true">B</span>
-            <span class="brand__name">BCS CRAFT</span>
+            <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+              <circle cx="20" cy="11" r="7"/><circle cx="29" cy="18" r="7"/><circle cx="25.5" cy="28.5" r="7"/>
+              <circle cx="14.5" cy="28.5" r="7"/><circle cx="11" cy="18" r="7"/><circle class="brand__core" cx="20" cy="21" r="5.5"/>
+            </svg>
+            <span class="brand__name">BCS Craft</span>
           </p>
-          <p data-copy="footer.tagline">Useful tools. Memorable play.</p>
+          <p class="site-footer__tagline" data-copy="footer.tagline">작고 포근한 게임을 만듭니다.</p>
         </div>
-        <div class="site-footer__meta">
-          <p>© <span id="current-year">2026</span> BCS Craft</p>
-        </div>
+        <ul class="site-footer__links">
+          <li><span data-copy="footer.contact">문의</span> <a href="mailto:bcscraft.support@gmail.com">bcscraft.support@gmail.com</a></li>
+          <li><a href="./bloomrows/privacy.html" data-copy="footer.privacy">Bloom Rows 개인정보처리방침</a></li>
+          <li>© <span id="current-year">2026</span> BCS Craft</li>
+        </ul>
       </div>
     </footer>
 

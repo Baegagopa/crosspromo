@@ -1,321 +1,119 @@
 {
-    "version":  10,
-    "global_switch":  true,
-    "cache_ttl_hours":  24,
-    "url_bases":  {
-                      "assets":  "https://baegagopa.github.io/crosspromo/assets/",
-                      "stores":  {
-                                     "android":  "https://play.google.com/store/apps/details?id=",
-                                     "ios":  "https://apps.apple.com/app/id"
-                                 }
-                  },
-    "display_rules":  {
-                          "max_daily_impressions":  3,
-                          "min_sessions_before_show":  2,
-                          "cooldown_between_promos_minutes":  30
-                      },
-    "apps":  [
-                 {
-                     "id":  "bcs-image-compressor-exif",
-                     "enabled":  false,
-                     "app_type":  "utility",
-                     "tags":  [
-                                  "image",
-                                  "photo",
-                                  "compression",
-                                  "exif",
-                                  "privacy",
-                                  "resize"
-                              ],
-                     "priority":  70,
-                     "is_featured":  false,
-                     "name":  "Image Compressor EXIF",
-                     "tagline":  "이미지 용량을 줄이고 EXIF 정보를 로컬에서 제거",
-                     "icon_path":  "image-compressor-exif-icon.png",
-                     "banner_path":  "image-compressor-exif-banner.png",
-                     "platforms":  {
-                                       "android":  {
-                                                       "applicationId":  "com.bcscraft.imagecompressorexif"
-                                                   },
-                                       "ios":  {
-                                                   "bundleId":  "",
-                                                   "appStoreId":  ""
-                                               }
-                                   },
-                     "exclude_current_game":  true,
-                     "target_platforms":  [
-                                              "android",
-                                              "ios"
-                                          ],
-                     "localized_content":  {
-                                               "_items":  [
-                                                              {
-                                                                  "key":  "en",
-                                                                  "value":  {
-                                                                                "name":  "Image Compressor EXIF",
-                                                                                "tagline":  "Compress images and remove EXIF metadata on device."
-                                                                            }
-                                                              },
-                                                              {
-                                                                  "key":  "ko",
-                                                                  "value":  {
-                                                                                "name":  "이미지 압축 EXIF 제거기",
-                                                                                "tagline":  "이미지 용량을 줄이고 EXIF 정보를 로컬에서 제거합니다."
-                                                                            }
-                                                              }
-                                                          ]
-                                           }
-                 },
-                 {
-                     "id":  "bcs-date-calculator",
-                     "enabled":  false,
-                     "app_type":  "utility",
-                     "tags":  [
-                                  "calendar",
-                                  "date-math",
-                                  "age",
-                                  "utc",
-                                  "timestamp"
-                              ],
-                     "priority":  65,
-                     "is_featured":  false,
-                     "name":  "Date Calculator",
-                     "tagline":  "Calendar-day math with age, UTC timestamp, and locale-aware date tools.",
-                     "icon_path":  "date-calculator-icon.png",
-                     "banner_path":  "date-calculator-banner.png?v=4",
-                     "platforms":  {
-                                       "android":  {
-                                                       "applicationId":  "com.bcscraft.datecalculator"
-                                                   },
-                                       "ios":  {
-                                                   "bundleId":  "",
-                                                   "appStoreId":  ""
-                                               }
-                                   },
-                     "exclude_current_game":  true,
-                     "target_platforms":  [
-                                              "android",
-                                              "ios"
-                                          ],
-                     "localized_content":  {
-                                               "_items":  [
-                                                              {
-                                                                  "key":  "en",
-                                                                  "value":  {
-                                                                                "name":  "Date Calculator",
-                                                                                "tagline":  "Calendar-day math with age, UTC timestamp, and locale-aware date tools."
-                                                                            }
-                                                              },
-                                                              {
-                                                                  "key":  "ko",
-                                                                  "value":  {
-                                                                                "name":  "날짜 계산기",
-                                                                                "tagline":  "나이, UTC 타임스탬프, 로케일별 날짜 형식을 함께 다루는 날짜 계산기입니다."
-                                                                            }
-                                                              }
-                                                          ]
-                                           }
-                 },
-                 {
-                     "id":  "bcs-photo-submission-utility",
-                     "enabled":  false,
-                     "app_type":  "utility",
-                     "tags":  [
-                                  "document",
-                                  "photo",
-                                  "pdf",
-                                  "local-first",
-                                  "export"
-                              ],
-                     "priority":  60,
-                     "is_featured":  false,
-                     "name":  "Photo Submission Utility",
-                     "tagline":  "Prepare photos and PDF pages for submission on device.",
-                     "icon_path":  "bcs-photo-submission-utility-icon.png",
-                     "banner_path":  "bcs-photo-submission-utility-banner.png",
-                     "platforms":  {
-                                       "android":  {
-                                                       "applicationId":  "com.bcscraft.photosubmissionutility"
-                                                   },
-                                       "ios":  {
-                                                   "bundleId":  "",
-                                                   "appStoreId":  ""
-                                               }
-                                   },
-                     "exclude_current_game":  true,
-                     "target_platforms":  [
-                                              "android",
-                                              "ios"
-                                          ],
-                     "localized_content":  {
-                                               "_items":  [
-                                                              {
-                                                                  "key":  "en",
-                                                                  "value":  {
-                                                                                "name":  "Photo Submission Utility",
-                                                                                "tagline":  "Prepare photos and PDF pages for submission on device."
-                                                                            }
-                                                              },
-                                                              {
-                                                                  "key":  "ko",
-                                                                  "value":  {
-                                                                                "name":  "문서/사진 제출 유틸",
-                                                                                "tagline":  "사진과 PDF 페이지를 기기에서 제출용 파일로 정리합니다."
-                                                                            }
-                                                              }
-                                                          ]
-                                           }
-                 },
-                 {
-                     "id":  "bloomrows",
-                     "enabled":  true,
-                     "app_type":  "game",
-                     "tags":  [
-                                  "puzzle",
-                                  "garden",
-                                  "flowers",
-                                  "logic",
-                                  "casual"
-                              ],
-                     "priority":  60,
-                     "is_featured":  false,
-                     "name":  "BloomRows",
-                     "tagline":  "Rotate rows and columns to guide water through a blooming garden.",
-                     "icon_path":  "bloomrows-icon.png",
-                     "banner_path":  "bloomrows-banner.png",
-                     "platforms":  {
-                                       "android":  {
-                                                       "applicationId":  "com.bcscraft.bloomrows"
-                                                   },
-                                       "ios":  {
-                                                   "bundleId":  "",
-                                                   "appStoreId":  ""
-                                               }
-                                   },
-                     "exclude_current_game":  true,
-                     "target_platforms":  [
-                                              "android",
-                                              "ios"
-                                          ],
-                     "localized_content":  {
-                                               "_items":  [
-                                                              {
-                                                                  "key":  "en",
-                                                                  "value":  {
-                                                                                "name":  "BloomRows",
-                                                                                "tagline":  "Rotate rows and columns to guide water through a blooming garden."
-                                                                            }
-                                                              },
-                                                              {
-                                                                  "key":  "ko",
-                                                                  "value":  {
-                                                                                "name":  "BloomRows",
-                                                                                "tagline":  "행과 열을 돌려 물길을 잇고 꽃을 피우는 정원 퍼즐입니다."
-                                                                            }
-                                                              }
-                                                          ]
-                                           }
-                 },
-                 {
-                     "id":  "hamyarn-paws",
-                     "enabled":  false,
-                     "app_type":  "game",
-                     "tags":  [
-                                  "casual",
-                                  "puzzle",
-                                  "merge",
-                                  "hamster",
-                                  "aiming"
-                              ],
-                     "priority":  60,
-                     "is_featured":  false,
-                     "name":  "Hamyarn Paws",
-                     "tagline":  "Aim, launch, and merge cozy yarn pieces with hamster helpers.",
-                     "icon_path":  "hamyarn-paws-icon.png",
-                     "banner_path":  "hamyarn-paws-banner.png",
-                     "platforms":  {
-                                       "android":  {
-                                                       "applicationId":  "com.bcscraft.hamyarnpaws"
-                                                   },
-                                       "ios":  {
-                                                   "bundleId":  "",
-                                                   "appStoreId":  ""
-                                               }
-                                   },
-                     "exclude_current_game":  true,
-                     "target_platforms":  [
-                                              "android",
-                                              "ios"
-                                          ],
-                     "localized_content":  {
-                                               "_items":  [
-                                                              {
-                                                                  "key":  "en",
-                                                                  "value":  {
-                                                                                "name":  "Hamyarn Paws",
-                                                                                "tagline":  "Aim, launch, and merge cozy yarn pieces with hamster helpers."
-                                                                            }
-                                                              },
-                                                              {
-                                                                  "key":  "ko",
-                                                                  "value":  {
-                                                                                "name":  "Hamyarn Paws",
-                                                                                "tagline":  "햄스터와 함께 포근한 실뭉치를 쏘고 합치는 캐주얼 퍼즐."
-                                                                            }
-                                                              }
-                                                          ]
-                                           }
-                 },
-                 {
-                     "id":  "bcs-board-game-score-sheet",
-                     "enabled":  false,
-                     "app_type":  "utility",
-                     "tags":  [
-                                  "board-game",
-                                  "scorekeeping",
-                                  "offline",
-                                  "game-night",
-                                  "qr",
-                                  "statistics"
-                              ],
-                     "priority":  55,
-                     "is_featured":  false,
-                     "name":  "Board Game Score Sheet",
-                     "tagline":  "Track players, rounds, and results for board games, card games, and game night.",
-                     "icon_path":  "board-game-score-sheet-icon.png",
-                     "banner_path":  "board-game-score-sheet-banner.png",
-                     "platforms":  {
-                                       "android":  {
-                                                       "applicationId":  "com.bcscraft.boardgamescoresheet"
-                                                   },
-                                       "ios":  {
-                                                   "bundleId":  "com.bcscraft.boardgamescoresheet",
-                                                   "appStoreId":  ""
-                                               }
-                                   },
-                     "exclude_current_game":  true,
-                     "target_platforms":  [
-                                              "android",
-                                              "ios"
-                                          ],
-                     "localized_content":  {
-                                               "_items":  [
-                                                              {
-                                                                  "key":  "en",
-                                                                  "value":  {
-                                                                                "name":  "Board Game Score Sheet",
-                                                                                "tagline":  "Track players, rounds, and results for board games, card games, and game night."
-                                                                            }
-                                                              },
-                                                              {
-                                                                  "key":  "ko",
-                                                                  "value":  {
-                                                                                "name":  "보드게임 점수표",
-                                                                                "tagline":  "플레이어별 라운드 점수와 결과를 오프라인에서 빠르게 기록합니다."
-                                                                            }
-                                                              }
-                                                          ]
-                                           }
-                 }
-             ]
+  "version": 11,
+  "global_switch": true,
+  "cache_ttl_hours": 24,
+  "url_bases": {
+    "assets": "https://baegagopa.github.io/crosspromo/assets/",
+    "stores": {
+      "android": "https://play.google.com/store/apps/details?id=",
+      "ios": "https://apps.apple.com/app/id"
+    }
+  },
+  "display_rules": {
+    "max_daily_impressions": 3,
+    "min_sessions_before_show": 2,
+    "cooldown_between_promos_minutes": 30
+  },
+  "apps": [
+    {
+      "id": "bloomrows",
+      "enabled": true,
+      "app_type": "game",
+      "tags": [
+        "puzzle",
+        "garden",
+        "flowers",
+        "logic",
+        "casual"
+      ],
+      "priority": 60,
+      "is_featured": false,
+      "name": "BloomRows",
+      "tagline": "Rotate rows and columns to guide water through a blooming garden.",
+      "icon_path": "bloomrows-icon.png",
+      "banner_path": "bloomrows-banner.png",
+      "platforms": {
+        "android": {
+          "applicationId": "com.bcscraft.bloomrows"
+        },
+        "ios": {
+          "bundleId": "",
+          "appStoreId": ""
+        }
+      },
+      "exclude_current_game": true,
+      "target_platforms": [
+        "android",
+        "ios"
+      ],
+      "localized_content": {
+        "_items": [
+          {
+            "key": "en",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Rotate rows and columns to guide water through a blooming garden."
+            }
+          },
+          {
+            "key": "ko",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "행과 열을 돌려 물길을 잇고 꽃을 피우는 정원 퍼즐입니다."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "hamyarn-paws",
+      "enabled": false,
+      "app_type": "game",
+      "tags": [
+        "casual",
+        "puzzle",
+        "merge",
+        "hamster",
+        "aiming"
+      ],
+      "priority": 60,
+      "is_featured": false,
+      "name": "Hamyarn Paws",
+      "tagline": "Aim, launch, and merge cozy yarn pieces with hamster helpers.",
+      "icon_path": "hamyarn-paws-icon.png",
+      "banner_path": "hamyarn-paws-banner.png",
+      "platforms": {
+        "android": {
+          "applicationId": "com.bcscraft.hamyarnpaws"
+        },
+        "ios": {
+          "bundleId": "",
+          "appStoreId": ""
+        }
+      },
+      "exclude_current_game": true,
+      "target_platforms": [
+        "android",
+        "ios"
+      ],
+      "localized_content": {
+        "_items": [
+          {
+            "key": "en",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Aim, launch, and merge cozy yarn pieces with hamster helpers."
+            }
+          },
+          {
+            "key": "ko",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "햄스터와 함께 포근한 실뭉치를 쏘고 합치는 캐주얼 퍼즐."
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
