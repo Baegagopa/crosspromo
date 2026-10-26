@@ -570,6 +570,26 @@ p {
   text-underline-offset: 4px;
 }
 
+.site-footer__biz {
+  flex-basis: 100%;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  line-height: 1.7;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+.site-footer__biz p {
+  margin: 0;
+}
+
+.site-footer__biz a {
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
 /* Document pages (privacy policy) */
 
 .doc {
