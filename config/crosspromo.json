@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "global_switch": true,
   "cache_ttl_hours": 24,
   "url_bases": {
@@ -207,7 +207,7 @@
             "key": "ja",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "かわいいハムスターと一緒に、ふわふわの毛糸玉を狙って飛ばして合体！"
+              "tagline": "かわいいハムスターと一緒に、ふわふわの毛糸玉を狙って飛ばして合体"
             }
           },
           {
