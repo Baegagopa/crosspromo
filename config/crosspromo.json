@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "global_switch": true,
   "cache_ttl_hours": 24,
   "url_bases": {
@@ -61,6 +61,97 @@
               "name": "BloomRows",
               "tagline": "행과 열을 돌려 물길을 잇고 꽃을 피우는 정원 퍼즐입니다."
             }
+          },
+          {
+            "key": "ja",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "行と列を回して水路をつなぎ、庭いっぱいに花を咲かせる癒やしパズル。"
+            }
+          },
+          {
+            "key": "zh-CN",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "旋转行列引水流过，让整座花园绚丽绽放。"
+            }
+          },
+          {
+            "key": "zh-TW",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "轉動行列引導水流，讓整座花園絢麗綻放。"
+            }
+          },
+          {
+            "key": "de",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Drehe Reihen und Spalten, leite das Wasser und bring den Garten zum Blühen."
+            }
+          },
+          {
+            "key": "fr",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Faites pivoter lignes et colonnes pour guider l’eau et faire fleurir le jardin."
+            }
+          },
+          {
+            "key": "es",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Gira filas y columnas para guiar el agua por un jardín en flor."
+            }
+          },
+          {
+            "key": "es-419",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Gira filas y columnas para llevar el agua por un jardín lleno de flores."
+            }
+          },
+          {
+            "key": "pt-BR",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Gire linhas e colunas para guiar a água por um jardim florido."
+            }
+          },
+          {
+            "key": "ru",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Вращайте ряды и столбцы, направляйте воду и оживляйте цветущий сад."
+            }
+          },
+          {
+            "key": "it",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Ruota righe e colonne per guidare l'acqua in un giardino in fiore."
+            }
+          },
+          {
+            "key": "id",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Putar baris dan kolom untuk mengalirkan air di taman yang bermekaran."
+            }
+          },
+          {
+            "key": "tr",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Satır ve sütunları döndürerek suyu çiçek açan bahçeye yönlendirin."
+            }
+          },
+          {
+            "key": "pl",
+            "value": {
+              "name": "BloomRows",
+              "tagline": "Obracaj rzędy i kolumny, by poprowadzić wodę przez kwitnący ogród."
+            }
           }
         ]
       }
@@ -110,6 +201,97 @@
             "value": {
               "name": "Hamyarn Paws",
               "tagline": "햄스터와 함께 포근한 실뭉치를 쏘고 합치는 캐주얼 퍼즐."
+            }
+          },
+          {
+            "key": "ja",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "かわいいハムスターと一緒に、ふわふわの毛糸玉を狙って飛ばして合体！"
+            }
+          },
+          {
+            "key": "zh-CN",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "和可爱仓鼠一起，瞄准、发射并合成软萌毛线球。"
+            }
+          },
+          {
+            "key": "zh-TW",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "與可愛倉鼠一起瞄準、發射，合成軟萌毛線球。"
+            }
+          },
+          {
+            "key": "de",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Ziele, wirf und verbinde flauschige Wollknäuel mit süßen Hamster-Helfern."
+            }
+          },
+          {
+            "key": "fr",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Visez, lancez et fusionnez de douces pelotes avec d’adorables hamsters."
+            }
+          },
+          {
+            "key": "es",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Apunta, lanza y combina suaves ovillos con adorables hámsteres."
+            }
+          },
+          {
+            "key": "es-419",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Apunta, lanza y fusiona suaves bolitas de estambre con tiernos hámsters."
+            }
+          },
+          {
+            "key": "pt-BR",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Mire, lance e combine novelos fofinhos com a ajuda de hamsters."
+            }
+          },
+          {
+            "key": "ru",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Цельтесь, запускайте и соединяйте уютные клубочки вместе с милыми хомячками."
+            }
+          },
+          {
+            "key": "it",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Mira, lancia e unisci morbidi gomitoli insieme a teneri criceti."
+            }
+          },
+          {
+            "key": "id",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Bidik, lempar, dan gabungkan gulungan benang lembut bersama hamster lucu."
+            }
+          },
+          {
+            "key": "tr",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Sevimli hamsterlarla nişan alın, yumuşacık yumakları fırlatıp birleştirin."
+            }
+          },
+          {
+            "key": "pl",
+            "value": {
+              "name": "Hamyarn Paws",
+              "tagline": "Celuj, wystrzeliwuj i łącz miękkie kłębki włóczki z uroczymi chomikami."
             }
           }
         ]
