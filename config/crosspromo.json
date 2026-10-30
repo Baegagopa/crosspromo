@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "global_switch": true,
   "cache_ttl_hours": 24,
   "url_bases": {
@@ -170,7 +170,7 @@
       "priority": 60,
       "is_featured": false,
       "name": "Hamyarn Paws",
-      "tagline": "Aim, launch, and merge cozy yarn pieces with hamster helpers.",
+      "tagline": "Launch seeds from a hamster wheel cannon and merge matching ones in a cozy puzzle.",
       "icon_path": "hamyarn-paws-icon-v2.png",
       "banner_path": "hamyarn-paws-banner-v2.png",
       "platforms": {
@@ -193,105 +193,105 @@
             "key": "en",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Aim, launch, and merge cozy yarn pieces with hamster helpers."
+              "tagline": "Launch seeds from a hamster wheel cannon and merge matching ones in a cozy puzzle."
             }
           },
           {
             "key": "ko",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "햄스터와 함께 포근한 실뭉치를 쏘고 합치는 캐주얼 퍼즐."
+              "tagline": "햄스터 쳇바퀴 대포로 씨앗을 쏘아 같은 것끼리 합치는 캐주얼 퍼즐."
             }
           },
           {
             "key": "ja",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "かわいいハムスターと一緒に、ふわふわの毛糸玉を狙って飛ばして合体"
+              "tagline": "ハムスターの回し車キャノンで種を飛ばして、同じものをくっつけるほっこりパズル"
             }
           },
           {
             "key": "zh-CN",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "和可爱仓鼠一起，瞄准、发射并合成软萌毛线球。"
+              "tagline": "用仓鼠跑轮大炮发射种子，在温馨益智游戏中合成相同物品。"
             }
           },
           {
             "key": "zh-TW",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "與可愛倉鼠一起瞄準、發射，合成軟萌毛線球。"
+              "tagline": "用倉鼠滾輪大砲發射種子，在溫馨益智遊戲中合成相同物品。"
             }
           },
           {
             "key": "de",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Ziele, wirf und verbinde flauschige Wollknäuel mit süßen Hamster-Helfern."
+              "tagline": "Feuere Samen aus einer Hamsterrad-Kanone und verbinde gleiche in einem gemütlichen Puzzle."
             }
           },
           {
             "key": "fr",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Visez, lancez et fusionnez de douces pelotes avec d’adorables hamsters."
+              "tagline": "Lancez des graines depuis un canon-roue de hamster et fusionnez les identiques dans un puzzle cosy."
             }
           },
           {
             "key": "es",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Apunta, lanza y combina suaves ovillos con adorables hámsteres."
+              "tagline": "Lanza semillas desde un cañón rueda de hámster y combina las iguales en un acogedor puzle."
             }
           },
           {
             "key": "es-419",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Apunta, lanza y fusiona suaves bolitas de estambre con tiernos hámsters."
+              "tagline": "Lanza semillas desde un cañón rueda de hámster y fusiona las iguales en un acogedor rompecabezas."
             }
           },
           {
             "key": "pt-BR",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Mire, lance e combine novelos fofinhos com a ajuda de hamsters."
+              "tagline": "Lance sementes de um canhão de roda de hamster e combine as iguais em um puzzle aconchegante."
             }
           },
           {
             "key": "ru",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Цельтесь, запускайте и соединяйте уютные клубочки вместе с милыми хомячками."
+              "tagline": "Запускайте семечки из хомячьей пушки-колеса и соединяйте одинаковые в уютной головоломке."
             }
           },
           {
             "key": "it",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Mira, lancia e unisci morbidi gomitoli insieme a teneri criceti."
+              "tagline": "Lancia semi da un cannone a ruota per criceti e unisci quelli uguali in un puzzle rilassante."
             }
           },
           {
             "key": "id",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Bidik, lempar, dan gabungkan gulungan benang lembut bersama hamster lucu."
+              "tagline": "Luncurkan biji dari meriam roda hamster dan gabungkan yang sama di puzzle yang nyaman."
             }
           },
           {
             "key": "tr",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Sevimli hamsterlarla nişan alın, yumuşacık yumakları fırlatıp birleştirin."
+              "tagline": "Bu sıcacık bulmacada hamster çarkı topundan tohumlar fırlatıp aynı olanları birleştirin."
             }
           },
           {
             "key": "pl",
             "value": {
               "name": "Hamyarn Paws",
-              "tagline": "Celuj, wystrzeliwuj i łącz miękkie kłębki włóczki z uroczymi chomikami."
+              "tagline": "Wystrzeliwuj ziarenka z chomiczej armaty-kołowrotka i łącz takie same w przytulnej łamigłówce."
             }
           }
         ]
