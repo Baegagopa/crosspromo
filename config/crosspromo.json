@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "global_switch": true,
   "cache_ttl_hours": 24,
   "url_bases": {
@@ -171,8 +171,8 @@
       "is_featured": false,
       "name": "Hamyarn Paws",
       "tagline": "Aim, launch, and merge cozy yarn pieces with hamster helpers.",
-      "icon_path": "hamyarn-paws-icon.png",
-      "banner_path": "hamyarn-paws-banner.png",
+      "icon_path": "hamyarn-paws-icon-v2.png",
+      "banner_path": "hamyarn-paws-banner-v2.png",
       "platforms": {
         "android": {
           "applicationId": "com.bcscraft.hamyarnpaws"
