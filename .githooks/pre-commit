@@ -3,3 +3,4 @@ set -eu
 
 repo_root=$(git rev-parse --show-toplevel)
 "$repo_root/.githooks/check-private-paths.sh" tracked
+"$repo_root/.githooks/check-bloomrows-version.sh" index
